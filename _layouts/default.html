@@ -16,16 +16,17 @@
         <div id='about'><a href = '/about/'>About</a></div>
     </div>
     <hr></hr>
-<div id = "content">
-    
-    <div id='table-of-content' style='min-width:100px;min-height: 100px; background-color: aqua;'>
+    <div id = "content">
+        
+        <div id='table-of-content' style='min-width:100px;min-height: 100px; background-color: aqua;list-style-type: none;'>
+        </div>
+        <div style = 'overflow: auto;'>
+            {{content}}
+        </div>
     </div>
-    <div style='overflow: auto;'>
-        {{content}}
-    </div>
-</div>
 </div>
 
 <!-- footerbar -->
+<script src='/javascript/table-of-content.js'></script>
 </body>
 </html>

@@ -12,9 +12,9 @@ tag: computerScience
 
 For the basic implementation. your computer will run code with a processor. Using Pytorch's Matrix operation, we can make our code run faster, because pytorch's operation use many processor at once.
 
-## Implementation and Explains.
+## Implementation and Explains
 
-### Algorithm breakdown:
+### Algorithm breakdown
 #### Initialization
  - create an matrix with size(N,d)
 
@@ -23,7 +23,7 @@ as each iteration, we do:
  - choose 3 random individual which we can do it by copying 3 times and shuffling it.
  - mutation population will be : ``` mutation = r1+ F*(r2-r3) ```
 
-#### Create Offspring:
+#### Create Offspring
  - let's rewrite the recombination code.
  - we can multiply a population matrix with an matrix of zero and one with exact size(Crs) to eleminate all the gene that we want to replaced with mutation.
  - then we can eliminate all the mutation gene that we want to replaced with original population by multiply it with ```Crs- = 1-Crs```(Crs-)
@@ -36,7 +36,7 @@ as each iteration, we do:
   New selection would be ```selected = Crs*population +(1-Crs)*offspring```
   - ```population = selected```
 
-### Source code:
+### Source code
 ```python
 class DE:
 
