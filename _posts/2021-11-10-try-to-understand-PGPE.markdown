@@ -15,7 +15,8 @@ symmetric sampling improves both convergence time and final perfomance
 #### assummed proplem
 representing a_t and s_t by real value vectors. assume that the conditional probability distribution over the next states s_(t+1) is entirely determined by the preceeding state-action pair. we also assume that a stochastic policy suffices,.... the distribution over actions only depends on the current state and the real valued vector of agent parameters. a_t ~ _____ . Lastly, assume state action pair produces scalar result. we refer to length T sequence of state-action pairs produced by agent as an history h.
 
-agent expected reward $$\sum_{n_1}^{10} x$$
+agent expected reward
+$\sum_{n_1}^{10} x$
 
 
 an obvious way to obtimize the expected reward is to estimate the delta____ and use it to carry out the gradient ascent optimization. Which the reward we get is independent with our paramters.
