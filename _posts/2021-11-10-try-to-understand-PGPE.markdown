@@ -3,6 +3,7 @@ layout: post
 title:  "Try to Understand PGPE"
 date:   2021-11-10 16:44:45 +0700
 tag: computerScience
+categories: computerScience
 ---
 
 ## Introduction.
@@ -50,9 +51,17 @@ $\triangledown_{\alpha}J(\alpha)~ \frac{1}{N}\sum_{N=1}{N}\log(\theta\|\alpha)r(
 assuming that \alpha is consist of a set of means and deviations that determine an independent normal distribution for each parameters $\theta_i$. with tweaks. give the derivative of $\log(p(\theta\|\alpha))$ with respect means and deviation
 
 
+assuming $\alpha$ consist of a set of means and deviation that determine independent normal distribution of each param in \theta some rearangement give the following forms of the derivative of $\log p(\theta\|\alpha)$ wit respect means and deviation.
 
+$\triangledown_{\mu}\log p(\theta\|\alpha) =  \frac{\theta_{i} - \mu_i}{ơ^2}$
+
+$\triangledown_{\ơ^2}\log p(\theta\|\alpha) =  \frac{(\theta_{i} - \mu_i)^2-ơ^2}{ơ^3}$
 ### Sampling with baseline
 
+we using average of result to be an expect result b of 1 generation. update according to the difference of b and r_i
+
+
+PSUEDO CODE:
 Initialize _u to u_init
 
 Initialize _o to o_init

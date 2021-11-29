@@ -3,6 +3,7 @@ layout: post
 title:  "Differential Evolution Implement with Matrix Operations in Pytorch."
 date:   2021-11-02 14:18:00 +0700
 tag: computerScience
+categories: computerScience
 ---
 
 ## Introductions.

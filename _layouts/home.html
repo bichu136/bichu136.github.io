@@ -1,10 +1,6 @@
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
+---
+layout: root
+---
 <!-- headerbar -->
 <div class = 'background'>
 
@@ -17,19 +13,15 @@
     </div>
     <hr></hr>
     <div class='front-page-panel'>
-        <h1>{{page.title}}</h1>
+        <h1>{{page.title}} </h1>
     </div>
 <div id = "content">
-    
+
     <div id='table-of-content' style='min-width:100px;min-height: 100px; background-color: aqua;'>
-        
+
     </div>
     <div class='flex-item-container' style = "overflow: auto;">
         {{content}}
     </div>
 </div>
 </div>
-
-<!-- footerbar -->
-</body>
-</html>

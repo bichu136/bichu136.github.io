@@ -1,8 +1,9 @@
 ---
-layout: Japanese_Sentence_Analysis 
+layout: word-quiz
 title:  "japanese word quiz"
 date:   2021-10-25 18:51:45 +0700
 tag: japanese
+categories: japanese
 ---
 
 日曜日
@@ -196,3 +197,6 @@ tag: japanese
 降る
 
 初雪
+
+今年
+
