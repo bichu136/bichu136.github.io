@@ -6,67 +6,67 @@ tag: japanese
 categories: japanese
 ---
 
-日曜日
+日曜日 - noun/fukushi - Sunday -  にちようび
 
-夜
+夜 - noun/fukushi - evening - よる
 
-友人 - noun - friend
+友人 - noun - friend -  ゆうじん
 
-届く
+届く - verb - to reach, to touch　- とどく
 
-見る
+見る - verb - look, see, watch - みる
 
-大声
+大声 - noun - loud voice - おおこえ
 
-上げる
+上げる - verb - raise, elevate, give　- あげる
 
-秋
+秋 - noun/fukushi - autumn - あき
 
-頃
+頃 - noun/adverb - time - ころ
 
-仲の良い
+仲の良い - Expression/keiyoshi -close - なかのよい
 
-友達
+友達 - noun -friend - ともだち
 
-連中
+連中 - noun - gang, company, lot, pack, those guy, group - れんちゅう
 
-次々
+次々 - fukushi/noun - in succession; one by one - つぎつぎ
 
-彼女
+彼女 - pronoun/noun - she, her, girlfriend - かのじょ
 
-作る
+作る - verb - make, produce, manufacture, build, construct - つくる
 
-成功
+成功 - noun - success - せいこう
 
-一緒に
+一緒に - fukushi - together - いっしょに
 
-遊ぶ
+遊ぶ　- verb - play, enjoy oneself, have a good time - あそぶ
 
-ひとり
+ひとり - noun/fukushi - being alone, unmarried, single -
 
-減る
+減る - verb - decrease - へる
 
-焦る
+焦る - verb - be in a hurry - あせる
 
-気持ち
+気持ち - noun - feeling, thought, attitude - きもち
 
-欲しい
+欲しい - keiyoshi - wanting - ほしい
 
-言う
+言う -verb - say,declare - いう
 
-ウソ
+ウソ -noun - lie -
 
-めちゃくちゃ
+めちゃくちゃ - keiyoshi - extreme; senseless; reckless; wanton -
 
-思う
+思う - verb - think - おもう
 
-探す
+探す - verb - search - さがす
 
-クリスマス
+クリスマス - noun - Christmas​ -
 
-嬉しい
+嬉しい - keiyoshi - happy,joyful,glad - うれしい
 
-独り
+独り - noun/fukushi - being alone - ひとり
 
 過ごす
 
