@@ -68,9 +68,9 @@ categories: japanese
 
 独り - noun/fukushi - being alone - ひとり
 
-過ごす
+過ごす - verb - to pass, to spend (time), to support - すごす
 
-家
+家 - noun - house, residence, family - いえ
 
 のんびり 
 
