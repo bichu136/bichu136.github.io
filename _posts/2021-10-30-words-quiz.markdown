@@ -72,131 +72,127 @@ categories: japanese
 
 家 - noun - house, residence, family - いえ
 
-のんびり 
+のんびり - fukushi - at leisure, in a relaxed manner -
 
-テレビ 
+テレビ - noun - television -
 
-観る
+観る - verb - see, look, watch
 
-俺
+俺 - pronoun - I,me - おれ
 
-耳
+耳　- noun - ear, hearing, edge, crust - みみ
 
-再び
+再び　- fukushi - again, once more, a second time - ふたたび
 
-馴染む
+馴染む - verb - become familiar with, fit in, adpat to one self - なじむ
 
-着信音
+着信音 - noun - ringtone - ちゃくじおん
 
-鳴る
+鳴る　- verb - sound,ring,echo - なる
 
-自慢
+自慢 - noun -pride -　じまん
 
-良く
+良く　- fukushi -nicely - よく
 
-届く
+届く - verb - reach - とどく
 
-祝福
+祝福 -noun - blessing - しゅくふく
 
-飽きる
+飽きる - verb - get tired of, lose instersted in -あきる
 
-使う
+使う - verb - use, make use of, put to use -　つかる
 
-クラス 
+クラス - noun - class -  くらす
 
-連絡網 
+連絡網 - noun - contact network - れんらくもう
 
-回る
+回る - verb - turn, resolve, visit someplace, function well, pass a certain time - まわる
 
-方
+方 - noun - direction, way,side, type, field - ほう
 
-全く
+全く - fukushi - really, truly, entirely, indeed - まったく
 
-やり取り 
+やり取り - noun - exchanging letter - やりとり
 
-相手
+相手 -noun - partner, other party, opponent -あいて
 
-通知
+通知 - noun -notify - つうち
 
-許可
+許可 - noun - permission - きょか
 
-必要
+必要 -noun/keiyoshi- necessary, needed -　ひつよう
 
-不要
+不要 -noun/keiyoshi -unnecessary,unneeded -ふよう
 
-電話番号
+電話番号 - noun - telephone number - でんわばんごう
 
-一方的
+一方的 - keiyodoshi - one-sided; unilateral; arbitrary - いっぽうてき
 
-送る
+送る - verb - send; transmit - おくる
 
-アドレス
+アドレス - noun - address - あどれす
 
-申請
+申請 - noun - application, request, petition - しんせい
 
-通知
+違う - verb - differ - ちがう
 
-許可
+内容 - noun - contents; matter; detail; import - ないよう
 
-違う
+目 - noun - eye - め
 
-内容
+留まり - noun - stoping at; going further than - どまり
 
-目
+やすい - keiyoshi　- cheap; calm; peaceful -
 
-留まり
+既読 - noun - already read - きどく
 
-やすい
+異なる - verb - disagree; differ;vary - ことなる
 
-既読
+部分 - noun - portion - ぶぶん
 
-異なる
+読む - verb - read - よむ
 
-部分
+送り主 - noun - sender - おくりめし
 
-読む
+窓 - noun - window - まど
 
-送り主
+外 - noun - outside - そと
 
-窓
+下さい - expressions - please - ください
 
-窓の外
+雪 - noun - snow - ゆき
 
-下さい
+積む - verb -pile up; to stack -つむ
 
-雪
+誰 -pronoun - who　- だれ
 
-積む
+表示 - noun - display; representation - ひょうじ
 
-誰
+登録 -　noun - registration; accession; register; record - とうろく
 
-表示
+名前 - noun - name - なまえ
 
-登録
+番号 - noun -number - ばんごう
 
-名前
+人違い - noun - mistaking one person to another - ひとちがい
 
-番号
+可能性 - noun - potentiality; possibility - かのせい
 
-人違い
+改めて - fukushi - another time;again; once again - あらためて
 
-可能性
+開ける - verb - open -　あける
 
-改めて
+冷たい - keiyoshi - cold - つめたい
 
-開ける
+空気 - noun - air -くうき
 
-冷たい
+気に入る - verb - to be delighted with - きにいる
 
-空気
+来る - verb - to come -くる
 
-気に入る
+降る - verb - to fall(from the sky) - ふる
 
-来る
+初雪 - noun - the first snow - はつゆき
 
-降る
-
-初雪
-
-今年
+今年 - noun/fukushi - this year - ことし
 
