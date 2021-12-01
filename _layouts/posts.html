@@ -1,0 +1,22 @@
+---
+layout: default
+scripts: >-
+    <script src='/javascript/table-of-content.js'></script>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+    }
+    });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+---
+
+
+<div id='table-of-content' style='min-width:100px;min-height: 100px; background-color: aqua;list-style-type: none; overflow: auto;'>
+</div>
+<div class ='post-content' style = 'overflow: auto;'>
+            {{content}}
+</div>
