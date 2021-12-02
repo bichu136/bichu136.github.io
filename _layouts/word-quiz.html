@@ -2,10 +2,29 @@
 layout: default
 style: >-
     <link rel="stylesheet" href="/css/word-quiz-style.css">
+scripts: >-
+    <script src="/javascript/word-quiz.js"></script>
 ---
+<script>
+    let meaning = [{% for word in site.data.words %}"{{word.mean}} ",{% endfor %}
+    ];
+    
+    let kanji = [{% for word in site.data.words %}"{{word.kanji}} ",{% endfor %}
+    ];
+    let _type = [{% for word in site.data.words %}"{{word.type}} ",{% endfor %}
+    ];
+    let spell = [{% for word in site.data.words %}"{{word.spell}} ",{% endfor %}
+    ];
+    
+</script>
+
+
+
 <div id="word">
-file.path
+
 </div>
 <div id="answers">
-<div class="choice">22222</div> <div class="choice">2</div> <div class="choice">444</div>
+<div class="choice">1</div> 
+<div class="choice">2</div> 
+<div class="choice">3</div>
 </div>
