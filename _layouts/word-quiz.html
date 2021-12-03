@@ -45,8 +45,5 @@ scripts: >-
     <div id="image-bottom"><img src="/assets/Correct/910746689856503848.png"></div>
     <div id="image-bottom-right"><img src="/assets/Correct/910746689856503848.png"></div>
 </div>
-{% assign correct_image = site.static_files | where: "Correct", true %}
-{% for myimage in correct_image %}
- {{ myimage.path }}
-{% endfor %}
+
 
