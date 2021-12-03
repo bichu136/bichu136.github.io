@@ -3,14 +3,20 @@
 //spell
 //_type
 //kanji
-let choices = document.getElementsByClassName("choice");
-for(var i= 0; i <choices.length;i++){
-console.log('begin');
-choices[i].onclick = function(event){event.path[0].textContent== result ? console.log("correct"):console.log("failed");};
-console.log(choices[i].onclick);
-console.log('end');
-}
 
+let choices = document.getElementsByClassName("choice");
+let correct_screen = document.getElementById("finished");
+let answers_div = document.getElementById("answers");
+let result_word = document.getElementById("result-word");
+function view_correct_screen(answers){
+    word_div.style.filter = "blur(3px)";
+    answers_div.style.filter = "blur(3px)";
+    correct_screen.style.visibility=null;
+    result_word.textContent =answers;
+}
+for(var i= 0; i <choices.length;i++){
+choices[i].onclick = function(event){event.path[0].textContent== result ? view_correct_screen("correct"):view_correct_screen("failed");};
+}
 let passing_words = []
 //  random word index
 var word_index = Math.floor(Math.random()*meaning.length);

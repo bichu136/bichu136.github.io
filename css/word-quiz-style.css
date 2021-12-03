@@ -55,3 +55,22 @@ font-size:10vh;
 .choice:active{
     background-color:red;
 }
+#normal{
+}
+#finished{
+position:absolute;
+left:0;
+right:0;
+height:75%;
+width:94%;
+margin-left:3%;
+background-color:rgba(255,0,0,0.35);
+display:grid;
+grid-template-rows: auto auto auto;
+grid-template-columns:auto auto auto;
+}
+#finished div{
+text-align:center;
+margin-top:20%;
+
+}
