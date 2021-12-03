@@ -64,13 +64,16 @@ right:0;
 height:75%;
 width:94%;
 margin-left:3%;
-background-color:rgba(255,0,0,0.35);
+background-color:rgba(143, 138, 130,0.45);
 display:grid;
 grid-template-rows: auto auto auto;
 grid-template-columns:auto auto auto;
 }
 #finished div{
 text-align:center;
-margin-top:20%;
+}
+#result-word{
+width:100%;
+font-size:2vw;
 
 }
