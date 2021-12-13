@@ -67,7 +67,7 @@ kanji,type,mean,spell
 内容, noun, contents; matter; detail; import, ないよう
 目, noun, eye, め
 留まり, noun, stoping at; going further than, どまり
-やすい, keiyoshi, cheap; calm; peaceful,
+やすい, keiyoshi, cheap; calm; peaceful,_
 既読, noun, already read, きどく
 異なる, verb, disagree; differ;vary, ことなる
 部分, noun, portion, ぶぶん
@@ -116,15 +116,46 @@ kanji,type,mean,spell
 知る,verb , know; be aware; learn; sense; notice; remember, しる
 本当に, fukushi,really; truly,ほんとうに
 心当たり,noun,having in mind; happen to know of; idea,こころあたり
-文面,noun, content of letter(books,etc...),ぶんめん
-不審,noun/keiyoshi,incomplete understanding; doubt; question; distrust; suspicion; strangeness; infidelity​,ふしん
+文面,noun, content of letter(books;etc...),ぶんめん
+不審,noun/keiyodoshi,incomplete understanding; doubt; question; distrust; suspicion; strangeness; infidelity​,ふしん
 期待感,noun,sense of anticipation; feeling of expectation,きたいかん
 勝つ, verb, win; gain victory, かつ
 時,noun,time;hour;moment, とき
 小さな,rentaishi,small;little,ちいさな
-歩幅,noun, step.ほはば
+歩幅,noun, step,ほはば
 少し,noun/fukushi,small;little;something,すこし
 前屈み, noun, slouch;lazyness,まえかがみ
 歩く, verb, walk, あるく
 転び,noun,falling; failure,ころび
-にくい,keiyoshi,hard to...,_
+にくい,keiyoushi,hard to...,_
+親切,noun/keiyoudoshi, kind; gentle; geneorous,しんせつ
+アドバイス,noun/verb,advice,あどばいす
+感謝,noun/verb, thanks;gratitude, かんしゃ
+見上げる,verb, look up , みあげる
+涔々(しんしん), adverb with'と',falling heavy(rain; snow; etc.),しんしん
+分かる,verb,understand, わかる
+不思議,keiyodoshi, wonderful,ふしぎ
+恋,noun,(romantic) love,こい
+予感, noun, presentinment;premonition;hunch,よかん
+回目,suffix, -th time(s),かいめ
+寒い,keiyoushi,cold,さむい
+学園,noun,school,がくえん
+嫌い,noun/keiyodoshi,disliked;hate,きらい
+嫌,keiyodoshi/noun,disagreeable;unpleasant,いや
+ちらほら,fukushi,here and there;sparsely,_
+同じ,noun,same,おなじ
+制服,noun,uniform,せいふく
+仲間,noun,friend,なかま
+凍える,verb,freeze,こごえる
+史上,noun, history,しじょう
+最大,noun, the greatest, さいだい
+寒気団,noun, cold air mass,かんきだん
+明日,fukushi/noun,tomorrow, あした
+増やす,verb, increase,ふやう
+枚, counter, mỗi,まい
+足, noun, leg;money, あし
+滑る,verb, slide,すべた
+思いっきり,fukushi,as much as one wants; as hard as one can,おもいっきる
+お尻,noun, bottom, おしり
+落ちる,verb, fall;fall(rain);fall onto; decrease;fail; fade;give up,おちる
+
