@@ -146,7 +146,7 @@ kanji,type,mean,spell
 同じ,noun,same,おなじ
 制服,noun,uniform,せいふく
 仲間,noun,friend,なかま
-凍える,verb,freeze,こごえる
+凍える,verb,freeze(of somebody); to numb,こごえる
 史上,noun, history,しじょう
 最大,noun, the greatest, さいだい
 寒気団,noun, cold air mass,かんきだん
@@ -242,3 +242,57 @@ kanji,type,mean,spell
 深々,fukushi,very deeply,ふかぶか
 頭,noun,head,あたま
 下げる,verb,to suspend; to lower; to demote; move back; clear(plate), remove(food),さげる
+声,noun, voice, こえ 
+路面,noun, road surface,ろめん
+凍る,verb,to freeze; congeal,こおる
+歩き方,noun, way to walk, 歩き方
+情報,noun, information; report;news,じょうほう
+実,noun,truth; sincerity,じつ
+益々,fukushi,increasingly; more and more,ますます
+面白い,keiyoushi,interesting;amusing;enjoyable,おもしろい
+変わる,verb, to change; to be transformed, to be altered,かわる
+危ない,keiyoushi,dangerous;risky;uncertain; insecure,あぶない
+うっかり,fukushi,carelessly;thoughtlessly;ウッカリ
+メッセージ,noun, message,めっせえじ
+謎,noun,misterious;enigma,なぞ
+別,noun,difference,べつ
+吃驚(ビックリ),fukushi/noun,suprise,びっくり
+イメチェン,noun,image change; changing one's image,いめちぇん
+あだ名,noun, nickname,あだな
+付ける,verb, attach; join; add, つける
+抱きつく,verb, embrace,だきつく
+悪くなる,verb,get worse,わるくない
+謝る,verb, apologize,あやまる
+小さい,keiyoushi,small;little;tiny,ちいさい
+取れる,verb,to come off; to be removed; to be obtainable,とれる
+最後,noun,end;conclusion;las夜t;final;latest,さいご
+聞き,noun, hearing,きき
+今度,noun/fukushi,this time;now; another time; nex time,こんど
+喜ぶ, to be delighted; to be glad; to congratulate,よろこぶ
+無事,noun/keiyodoshi/fukushi, safely; security;peace;successfully,ぶじ
+二度目,noun, second time, にどめ
+時,noun, time,とき
+書く,verb, write,かく
+知り合い,noun, acquaintance,しりあい
+暗い,keiyoushi,dark;gloomy,くらい
+少い,keiyoushi,few; a little; scarce,すくない
+首,noun,neck,くび
+振る,verb, to wave; shake; swing,ふる
+戻る,verb, to turn back; to return; to go back; to recover,もどる
+表情,noun, facial expression,ひょうじょう
+にこやか,keiyodoshi,smiling; beaming; radiant; cheerful,-
+助言,noun, advice,じょげん
+色んな,rentaishi,various,いろんな
+有効,keiyodoshi/noun,valid;effective,ゆうこう
+感じ,noun, feeling; experience,かんじ
+猫背,noun,bend back,ねこぜ
+住む,verb,live;to inhabit,すむ
+内地,inland; interior,ないち
+人より,fukushi,more than most people; compare with others,ひとより
+得意,noun/keiyodoshi,pride;triumph;satisfaction,とくい
+行う,verb,to perform,おこなう
+瞬間,noun/fukushi,moment;second;intant,しゅんかん
+バランス,noun,balance,ばらんす
+崩す,verb, to destroy; to demolish; to tear down,くずす
+踏みとどまる,verb, to stay on; to hold out; to stop,ふみとどまる
+絶対,fukushi,absolutely,ぜったい
