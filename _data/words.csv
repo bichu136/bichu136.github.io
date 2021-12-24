@@ -242,7 +242,7 @@ kanji,type,mean,spell
 深々,fukushi,very deeply,ふかぶか
 頭,noun,head,あたま
 下げる,verb,to suspend; to lower; to demote; move back; clear(plate), remove(food),さげる
-声,noun, voice, こえ 
+声,noun, voice, こえ
 路面,noun, road surface,ろめん
 凍る,verb,to freeze; congeal,こおる
 歩き方,noun, way to walk, 歩き方
@@ -320,3 +320,26 @@ kanji,type,mean,spell
 休み時間,noun, breaktime, やすみじかん
 数学,noun, math,すうがく、
 覚える,verb, memorize,おぼえる
+実際,noun,reality; truth; fact; practice;truly; really,じっさい
+登校,noun, going to school,とうどう
+今朝,fukushi, this morning,けさ
+謝る,verb, to apologize,あやまる
+仕方,noun, way; method,しかた
+影,noun,shadow,かげ
+薄い,keiyoushi,thin;light;watery,うすい
+体育,noun,physical education,たい(い)く
+残った,noun/verb?,remaining;leftover,のこった
+倉庫,noun, storehouse; warehouse,倉庫
+用具,noun, tool;instrument;equipment,ようぐ
+持つ,verb,hold;take;carry;to own,もつ
+持っていく,verb,to take; to carry away; to bear,もっていく
+鍵,noun, key,かぎ
+出席,noun,attendance;appearence,しゅっせき
+返事,noun,answers;reply,へんじ
+先生,noun, teacher,せんせい
+始める,verb,start; begin,はじめる
+お手洗い,noun, toilet; restroom, おてあらい
+間,suffix/noun,period of time;while(doing some thing),かん
+先,noun, head; ahead; before;destination,さき
+帰る,verb, return; come home; go back,かえる
+目立つ,verb, to standout; to be conspicuous,めだつ
