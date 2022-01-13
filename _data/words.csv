@@ -189,7 +189,7 @@ kanji,type,mean,spell
 弾む,verb,bound;bounce;be stimulated,はずむ
 揺れる,verb,shake;sway;waver,ゆれる
 画面,noun, screen,がめん
-怪我、noun, wound,けが
+怪我,noun, wound,けが
 ずぶ濡れ,noun,dripping wet; soaked,ずぶぬる
 使う,verb, use,つかう
 お尻,noun, bottom; buttocks,おしり
@@ -306,7 +306,6 @@ kanji,type,mean,spell
 当たり前,noun/keiyodoshi, natural; reasonable;obvious,あたりまえ
 個人的,noun,personal(add に to become personal place),個人的
 校章,noun, school emblem,こうしょう
-気に入る,verb/expression,like; to be blease with, to take a liking
 内,fukushi, inside;while; during;amongst,うち
 吸い込む,verb, to suck up; to absorb,すいこむ
 入る,verb, to enter,はいる
@@ -318,7 +317,7 @@ kanji,type,mean,spell
 忘れる,verb, to forget, わすれる
 時間目,noun, period; class,じかんめ
 休み時間,noun, breaktime, やすみじかん
-数学,noun, math,すうがく、
+数学,noun, math,すうがく
 覚える,verb, memorize,おぼえる
 実際,noun,reality; truth; fact; practice;truly; really,じっさい
 登校,noun, going to school,とうどう
@@ -345,7 +344,7 @@ kanji,type,mean,spell
 見た目,noun/expression,outward looks; exterior appearence,みため
 先ほど, noun/fukushi,a short while ago; a moment ago; just now,さきほど
 魔法,noun, magic, まほう
-返す,verb,, to restore; to put back,かえす
+返す,verb, to restore; to put back,かえす
 普段,noun, usual;normal;formal,ふだん
 口調,noun,tone;manner of talking, くちょう
 中身,noun,content;interior;filling,なかみ
@@ -368,7 +367,7 @@ kanji,type,mean,spell
 仲良く,verb, on friendly terms; in peacefully,なかよう
 悪い,keiyoushi,bad; poor; ugly, わるい
 購買,noun,school store; co-op; school canteen; tuck shop​,こうばい
-昼休み、noun/fukushi,lunch break; noon rest period, ひるやすみ
+昼休み,noun/fukushi,lunch break; noon rest period, ひるやすみ
 日課,noun, daily routine,にっか
 猫背,noun/keiyodoshi, bend back; hunch back; stoop, ねこぜ
 以前,noun/fukushi,ago; since; previous,いぜん
@@ -447,7 +446,7 @@ kanji,type,mean,spell
 並べる, verb, to line up, to set up, to arrange in a line, ならべる
 最新, noun, latest; newest; late-breaking news,さいしん
 置く,verb, to put; to place; おく
-表紙,noun, cover' appearing on the cover of magazine; ひょうし
+表紙,noun, cover' appearing on the cover of magazine, ひょうし
 飾る,verb, to decorate; to mark; to display; to be showy, かざる
 取り,noun, takingl taker; collecting; collector,とり
 捲る,verb,  to turn pages of a book​, めくる
@@ -469,8 +468,8 @@ kanji,type,mean,spell
 袋,noun, bag; sag;pouch, ふくろ
 入れる,verb, to put in; to let in; to take in; to insert,いれる
 合計,noun, sum total; total amount, ごうけい
-置く,verb; to place; to leave behind; to set up; to bear in mind; to put down a tool hence stopping what one is doing with that tool; to provide lodging in house, おく
-量、noun,quantity, りょう
+置く,verb, to place; to leave behind; to set up; to bear in mind; to put down a tool hence stopping what one is doing with that tool; to provide lodging in house, おく
+量,noun,quantity, りょう
 重い,keiyoushi,heavy;seriosly, おもい
 手伝う,verb, to help; to contribute; to assist, てつだう
 返事,noun,response; reply; answers. へんじ
@@ -501,3 +500,45 @@ kanji,type,mean,spell
 多い, keiyoushi, many; numerous; alot; frequent;common, おおい
 要求,noun, demand; requirement; desire,ようきゅう
 賃上げ,noun, wage increase; pay rise, さんあげ
+報酬,noun, reward; remuneration; recompense, はうしゅう
+別,noun/keiyodoshi,distinction; difference;separate, べつ
+苦労,noun, trouble;hardship;difficulty,くろう
+一番,noun/fukushi,best;number one; first; best; most, いちばん
+困る,verb,to have difficulty; to be in a fix; to at a loss; to be bothered; to be annoyed,こまる
+軟派（ナンパ）,noun,seducer; smooth talker; ladies'man; playboy, なんぱ
+校門,noun, school gate, こうめん
+待ち伏せ,noun, ambush, まちぶけ
+久しぶり,keiyodoshi/noun, a long time; first in a long time,
+お休み,noun, holiday; sleep; rest,おやすみ
+声かけ, noun,greeting; approaching,こえかけ
+執拗い,keiyoushi, too rich; fatty; heavy; persistent; obstinate;tenacious,しつこい
+最低, keiyodoshi/noun/fukushi,least; worst; at the very least, さいてい
+ぐいぐい,fukushi, without hesitiation; vigorously; with great vigor,ぐいぐい
+乱す,verb, to throw into disorder; to disarrange; to disturb; to corrupt; to dishevel,みだす
+さり気なく,keiyoushi,in a casual manner, unconcerned,さりげなく
+荷物,noun, luggage; package;payload, にもつ
+年上,noun, older; senior, としうえ
+てくてく,fukushi, at a steady pace, ___
+今更ながら,expression,although at this late hour; now; although it is too late, いまさらながら
+名乗る, verb, give one's name; to introduce oneself,なのる
+気づく,verb, to notice; to recognize; to perceive; to realize, きづく
+次,noun, continue; next, つぎ
+呼び方,expression, way of calling, よびかた
+下の名前,noun, the name below; first name; given name, したのなまえ
+上の名前,noun, tha name upper; family name; surname; last name, うえのなまえ
+以後,fukushi, after this; from now on; since,いご
+お願い,noun,request; favour; wish; please, おねがい
+辿り着く,verb; to arrive at; to finally reach,たどりつく
+室,noun, room,しつ
+取って来る,verb, to go and get; to fetch, とってくる
+後で,fukushi, afterward,あとで
+抱える,verb,to hold in one's arms; to carry in one's arms,かかえる
+廊下,noun, corridor; hallway; passageway,ろうか
+走る,verb,run, はしる
+軽い,keiyoushi, easy; light; effortless,かるい
+突っ込み,noun, charge; thrust; penetration, つっこみ
+机,noun, desk,つくえ
+上,noun/fukushi, top;surface,above;up;over, うえ
+眠る, verb, to sleep;to lie unused; to untouched,ねむる
+全,noun,complete; all of; total, ぜん
+会長,noun, president; chairman,かいちょう
