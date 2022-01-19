@@ -75,7 +75,7 @@ kanji,type,mean,spell
 送り主, noun, sender, おくりめし
 窓, noun, window, まど
 外, noun, outside, そと
-下さい, expressions, please, ください
+下さい, expression, please, ください
 雪, noun, snow, ゆき
 積む, verb,pile up; to stack,つむ
 誰,pronoun, who, だれ
@@ -354,7 +354,7 @@ kanji,type,mean,spell
 モテる,verb, popular,もてる
 アルバイト,noun, part-time job; side jobs, あるばいと
 ショッピングモール ,noun, shopping mall,しょっぴんぐもる
-結構,quite;faily;sufficient; fine;wonderful;splendid,けっこう
+結構,keiyodoshi/fukushi/noun,quite;faily;sufficient; fine;wonderful;splendid,けっこう
 美味しい,keiyoushi, delicious; tasty,おいしい
 ご飯,noun, meal;cooked rice, ごはん
 込む,verb, to be crowded, ごむ
@@ -417,8 +417,7 @@ kanji,type,mean,spell
 転校生,noun, transfer student, てんこうせい
 離れる,verb, to be separated; to interupt,はなれる
 学生,noun, student,がくせい
-詰め寄る,verb,to draw near; to come closer,つめよる
-立ち上がる,verb,to stand up, たりあがる
+詰め寄る,verb,to draw near; to come closer,つめよる立ち上がる,verb,to stand up, たりあがる
 タピオカミルクティー,noun, Trà sữa trân châu, たびおかみるくちい
 持つ, verb, to hold; to take charge; to maintain; to keep, もつ
 水着,noun, bathing suit; swimsuit, みずぎ
@@ -542,3 +541,51 @@ kanji,type,mean,spell
 眠る, verb, to sleep;to lie unused; to untouched,ねむる
 全,noun,complete; all of; total, ぜん
 会長,noun, president; chairman,かいちょう
+美人,noun, beautiful woman; beauty, びじん
+優しく
+優秀, keiyodoshi/ noun, superios; excellent; brilliant; outstanding, ゆうしゅう
+学業,noun,studies; schoolwork; classwork, がくぎょう
+面倒見,noun, taking care of someone,めんどうみ
+多く,noun/fukushi, majority of; mostly; mainly; usually; often, おおく
+所謂,rentaishi,what is called; as it is called, いわゆる
+完璧, keiyodoshi, perfect; complete; flawless, かんべき
+夕陽,noun,evening sun; setting sun, ゆうひ
+射し込む, verb,to shine in; to illuminate,きしこむ
+ストーブ, noun, heater; stove, すとおぶ
+静かに,fukushi,calmly; quietly; gently; peacefully; be quite!, しずかに
+唸る,verb, to groan; to moan, うなる
+長い, keiyoushi, long; prolonged, ながい
+まつ毛,noun, eyelashes, まつげ
+伏せる,verb, to turn over; to lay face down; to lay upsidedown;
+to cast down; to lie flat, ふける
+心地,noun/suffix, feeling; sensation; mood, ここち
+良さそう,keiyoushi,looking good; sounding good; (of) good appearance,よさそう
+横顔,noun, profile;face in police; face seen from the side, よこがお
+芸術作品,noun,work of art; artwork; objet d'art,せいじゅつさくひん
+みたい,suffix/keiyoushi,-like; sort of; similar to; resembling, みたい
+そういや,expression,which remind me; come to think of it,___
+眠り,noun, sleep; inactivity; death, ねむり
+森,noun, forest, もり
+童話, noun, Fairy tale; children's story, どうわ
+有る,verb, to be; to exist, to live, ある
+捲れる,verb, to be turned up; to be turned inside out, to be lifted, まくれる/めくれる
+黒い, keiyoushi, black; blackishl; dark, くろい
+ストッキング,noun, stockings, すとっきんぐ
+包む, verb,to wrap up; to pack; to bundle; to cover; to envelop; to conceal; to hide, つつむ
+美しい,keiyoushi, beautiful, pretty; lovely; sweet; pure,うつくしい
+太もも,noun, thigh; buttocks; arse; butt,ふともも
+露わ, keiyoushi, exposed; scanty; bare; uncounceal; naked; open; public, あらわ
+目の毒, tempting thing; something that shouldn't be seen, めのどく
+視線,noun, one's line of sight; one's gaze, しせん
+釘付け, nailing on; being rooted; halting; freezing; being unable to take one's eyes from, くぎつけ
+室内,noun,indoor; inside the room, しつない
+見渡す,verb,to look out over; to survey; to take an extensive view of, みわたす
+イス/椅子,noun,chair; stool, いす
+毛布,noun,blanket, もふ
+掛ける, verb, to hang up; to let hang; to suspend; to put on; to spread; to cover, かける
+下半身, noun, lower half of the body,かはんしん
+隠れる,verb, to hide; to be hidden; to conceal oneself, かけれる
+そっと,fukushi, softly; gently; lightly, ___
+香り,noun, scent; smell; aroma,かおり
+ふわり, fukushi,softly; gently; lightly,____
+甘い,keiyoushi,sweet; sugary; not spicy; lightly salted, naive; soft on; overly optimistic; indulgent,あまい
