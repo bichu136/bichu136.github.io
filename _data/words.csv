@@ -27,7 +27,7 @@ kanji,type,mean,spell
 めちゃくちゃ,keiyoshi,extreme; senseless; reckless; wanton,
 思う,verb,think,おもう
 探す,verb,search,さがす
-クリスマス,noun,Christmas​,くりすます
+クリスマス,noun,Christmas,くりすます
 嬉しい,keiyoshi,happy;joyful;glad,うれしい
 独り,noun/fukushi,being alone,ひとり
 過ごす,verb,to pass; to spend (time); to support,すごす
@@ -56,7 +56,7 @@ kanji,type,mean,spell
 相手,noun,partner; other party; opponent,あいて
 通知,noun,notify,つうち
 許可,noun,permission,きょか
-必要,noun/keiyoshi,necessary; needed,　ひつよう
+必要,noun/keiyoshi,necessary; needed, ひつよう
 不要,noun/keiyoshi,unnecessary;unneeded,ふよう
 電話番号, noun, telephone number, でんわばんごう
 一方的, keiyodoshi, one-sided; unilateral; arbitrary, いっぽうてき
@@ -80,13 +80,13 @@ kanji,type,mean,spell
 積む, verb,pile up; to stack,つむ
 誰,pronoun, who, だれ
 表示, noun, display; representation, ひょうじ
-登録,　noun, registration; accession; register; record, とうろく
+登録, noun, registration; accession; register; record, とうろく
 名前, noun, name, なまえ
 番号, noun,number, ばんごう
 人違い, noun, mistaking one person to another, ひとちがい
 可能性, noun, potentiality; possibility, かのせい
 改めて, fukushi, another time;again; once again, あらためて
-開ける, verb, open,　あける
+開ける, verb, open, あける
 冷たい, keiyoshi, cold, つめたい
 空気, noun, air,くうき
 気に入る, verb, to be delighted with, きにいる
@@ -240,7 +240,6 @@ kanji,type,mean,spell
 真っ赤,noun,bright red;flushed,まっか
 原因,noun,cause;origin,げんいん
 深々,fukushi,very deeply,ふかぶか
-頭,noun,head,あたま
 下げる,verb,to suspend; to lower; to demote; move back; clear(plate), remove(food),さげる
 声,noun, voice, こえ
 路面,noun, road surface,ろめん
@@ -298,7 +297,7 @@ kanji,type,mean,spell
 絶対,fukushi,absolutely,ぜったい
 恥ずかしい,keiyoushi,embarassing,はずかしい
 限り,noun,... the last; ... in the end,かぎり
-お互い,noun, each other; one another​,おたがい
+お互い,noun, each other; one another,おたがい
 通る,verb,to go past; to go by; go along;to take a route; to go via; go indoor;to come in; to penetrate;to go through;to soak into; to be known as; to make sense; be understandable,とおる
 正門,noun, main gate; main entrance,せいもん
 街,noun, town;downtoun,まち
@@ -417,7 +416,8 @@ kanji,type,mean,spell
 転校生,noun, transfer student, てんこうせい
 離れる,verb, to be separated; to interupt,はなれる
 学生,noun, student,がくせい
-詰め寄る,verb,to draw near; to come closer,つめよる立ち上がる,verb,to stand up, たりあがる
+詰め寄る,verb,to draw near; to come closer,つめよる
+立ち上がる,verb,to stand up, たりあがる
 タピオカミルクティー,noun, Trà sữa trân châu, たびおかみるくちい
 持つ, verb, to hold; to take charge; to maintain; to keep, もつ
 水着,noun, bathing suit; swimsuit, みずぎ
@@ -589,3 +589,98 @@ to cast down; to lie flat, ふける
 香り,noun, scent; smell; aroma,かおり
 ふわり, fukushi,softly; gently; lightly,____
 甘い,keiyoushi,sweet; sugary; not spicy; lightly salted, naive; soft on; overly optimistic; indulgent,あまい
+幸い,keiyodoshi/noun/fukushi,happiness; blessedness; luck; fortune; fortunately; luckily, さいわい
+起こす, verb, to wake up; to raise; to pick up; to plow; to till; to fall ill with; to transcribe, to turn over a card, おこす
+引き続き,fukushi/ noun, contiunously; continually; next; after that, ひきつづき
+疲れる,verb, to get tired; to beccome exhausted; to become worn out; to starve, つかれる
+交代, noun, alternation; change; relief; shift; take turns, こうたい
+月末,noun/fukushi,end of the month, げつまつ
+引き継ぎ,noun,taking over, handling over; transfer of control; inheriting; passing on the baton,ひきつぎ
+作業, noun, work, operation; manufacturing; fatigue duty, さぎょう
+堪る, verb, to bear; to endure, たまる
+溜まる, verb, to collect;to gather; to save; to accumulate; to pile up, たまる
+開く, verb, to open, おく
+瞼, noun, eyelid, まぶた
+眠そう,keiyodoshi, sleepy-looking; sleepy-sounding, ねむそう
+ パチパチ, fukushi,crackling; craking; snapping; popping;clicking;claping;incessantly, ぷちぷち
+ 色っぽい, keiyoushi,sexy; amorous; erotic, いろっぽい
+ 物凄い(もの凄い),keiyoushi, remendous; incredible; extreme​;ghastly; horrific; terrible; awful; gruesome; eerie; terrific; staggering,ものすごい
+ 撮る, verb; to take a photo; to record; to make film,とる
+ 悪戯, noun/keiyodoshi,lewd behaviour; sexual misconduct; sexual assault; molestation; rape​,いたずらい
+ 最初,noun, beginning; outset; first; onset, さいしょ
+ 微睡,noun, doze; nap; slumber, まどろみ
+ 夢現(夢うつつ),noun, half asleep and half awake; trance, ゆめうつつ
+ 楽しむ,verb, to enjoy (oneself), たのしむ
+ 暖かい, keiyoushi, ward; mild; kind; genial, あたたかい
+ うとうと, fukushi, falling into a doze; dozing off; nodding off, ＿＿＿
+ シチュエーション, noun, situation, しちゅええしょん
+ 余計,keiyodoshi,unnecessary; extra; more; too many; needless, よせい
+妄想, noun, delusion, もうそう
+過ぎる, verb, to go by; to cross; to pass by, よぎる
+振り払う, verb, to shake off,ふりはらう
+首を横に振る,verb, to shake someone head,くびをよこにふる
+寝る, verb, to sleep; to lie down,ねる
+気だるい, keiyoushi, languid; listless,けだるい
+他,noun/fukushi, other(place; thing; person); the rest; et al, outside; beyond; nothing except; nothing but; beside, ほか
+落ち着く,verb, to calm down; to settle down; to become stable,おちつく
+見かける,verb,to catch sight of,みかける
+守る,verb, to protect; to abide;to guard; to defend,to obey; to follow, まもる
+寝る,verb, to sleep, to ferment, ねむる
+拝命, noun, recieving an official appoint ment; being appointed,はいめい
+以上, expression/fukushi/noun,that's all; the end,いじょう
+失礼,verb,impoliteness,しつれい
+背,noun, back, せ
+向ける, to turn towards; to point, むける
+仁王立ち,verb,imposing stance;daunting stance,におうだち
+姫,noun, hime, ひめ
+意味, noun, meaning, いみ
+正解,noun,correct; right, せいかい
+信頼,noun, reliance; trust; faith; confidence, しんらい
+振り回す, verb, to manipulate s.o; to abuse one's power, ふりまわす
+姉さん, noun, older sister; elder sister, ねえさん
+光栄, noun/keiyodoshi, honour; glory, こうえい
+初めて, fukushi/noun, for the firstime; firstime; only after ..... is it....; only when.... do you,はじめて
+全部,noun/fukushi,all; entire; whole; altogether, ぜんぶ
+狸寝入り,noun,feigning sleep, たぬきねいり
+両手,noun, both hands,りょうて
+背中,noun, back of body, せなか
+観察,noun, observation; watching, かんさつ
+揶揄う, verb, to tease; to make fun of,からかう
+評, noun/suffix, evaluate; criticism; commentary, ひょう
+他人,noun,another person; unrelated person, たにん
+安心, noun, relieve; piece of mind, あんしん
+不思議, noun/keiyodoshi,wonderful; miraculous; mysterious; incredible; strangely enough; oddly enough; for some reason; curiously​,ふしぎ
+風,noun, wind; breeze; manner; behaviour,かぜ
+照れる,verb, to be shy; to feel awkward, てれる
+関係,noun, relation; relationship; connection,かんけい
+出会う,verb, to come across; to encounter; であう
+途中,noun/fukushi, on the way; in the middle of, とちゅう
+黙る,verb, to be silent; to say nothing, だまる
+打ち解ける,verb,to open one's heart; to throw off reserve; to be frank​,うちとける
+早い, keiyoushi, fast; quick; rapid; swift;speedy;brisk,はやい
+被る,verb, incur; cover; veil; brood over; shelter; wear; put on; be exposed (film): receiving, かぶる
+事実,fukushi/noun, fact; truth, じじつ
+仲,noun, relation; relationship, なか
+楽しい, keiyoushi, enjoyable; fun; pleasant; happy,たのしい
+笑う,verb, to laugh, わらう
+入会,noun,admission (to a society, club, etc.); joining; entrance; enrollment; enrolment; becoming a member;にゅうかい
+可能,keiyodoshi/noun, possible; potential,かのう
+選挙,noun,election,せんきょ
+役職,noun, official positions; executive position, やくしょく
+決まる,verb, to be decided, きまる
+狙う,verb, to aim at; to be after; to aim for, ねらう
+指,noun, finger; toe;digit,ゆび
+作り,noun, making; producing;building,つくり
+拳銃, noun,pistol;handgun,けんじゅう
+撃つ,verb,to shoot; to fire,うつ
+フリ, noun, pretending to;pretence,ふり
+不意打ち,noun, suprise attack, ふいうち
+卑怯,noun/keiyodoshi,cowardly; craven, ひきょう
+倒れる,verb, to fall; to be destroyed; to be killed; to lose, たおれる
+ノリがいい, expressions, good at playing along; up for anything; carefree; social; positive,のりがいい
+流れ,noun, flow; stream; current, ながれ
+払う, verb, to pay; to brush off; to wipe away; to dust off; to clear away,はらう
+肩, noun, shoulder, かた
+憩い, noun, rest; relaxation, いこい
+場所,noun, place; location;  spot, ばしょ
+冷蔵庫,noun, fridge,れいぞく
