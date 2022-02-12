@@ -45,16 +45,17 @@ for(var i= 0; i <type_divs.length;i++){
     type_divs[i].onclick = function(event){set_type(event.target.textContent)};
 }
 function set_type(str_type){
-    if(str_type = "verb"){
+    console.log(str_type)
+    if(str_type == "verb"){
         list_of_index = verb
     }
-    if(str_type = "keiyodoshi"){
+    if(str_type == "keiyodoshi"){
         list_of_index = keiyodoshi
     }
-    if(str_type = "keiyoushi"){
+    if(str_type == "keiyoushi"){
         list_of_index = keiyoushi
     }
-    if(str_type = "noun"){
+    if(str_type == "noun"){
         list_of_index = noun
     }
     next_stage()
