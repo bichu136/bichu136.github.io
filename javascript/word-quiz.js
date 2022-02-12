@@ -5,6 +5,9 @@ let answers_div = document.getElementById("answers");
 let result_word = document.getElementById("correct_word");
 let correct_answers = document.getElementById("correct_answers");
 let word_div = document.getElementById("word")
+let type_divs = document.getElementsByClassName("_type");
+let title_screen_div = document.getElementById("title_screen");
+let the_game_div = document.getElementById("the_game");
 let result=null
 // let word_index
 // let missleading_1
@@ -12,10 +15,53 @@ let result=null
 // let position_1
 // let position_2
 // let correct_position
+
+let verb=[]
+let keiyoushi=[]
+let keiyodoshi=[]
+let noun = []
+for (var i=0;i<_type.length;i++){
+    var types_of_word = _type[i].split('/')
+    if(types_of_word.includes("verb")){
+        verb.push(i)
+    }
+    if(types_of_word.includes("keiyodoshi")){
+        keiyodoshi.push(i)
+    }
+    if(types_of_word.includes("keiyoushi")){
+        keiyoushi.push(i)
+    }
+    if(types_of_word.includes("noun")){
+        noun.push(i)
+    }
+}
+let list_of_index
+
 let correct_string
 for(var i= 0; i <choices.length;i++){
-    choices[i].onclick = function(event){console.log("in click event");event.target.textContent== result ? view_result_screen(true):view_result_screen(false);setTimeout(hide_result_screen,2000);};
+    choices[i].onclick = function(event){console.log("in click event");event.target.textContent== result ? view_result_screen(true):view_result_screen(false);setTimeout(hide_result_screen,5000);};
 }
+for(var i= 0; i <type_divs.length;i++){
+    type_divs[i].onclick = function(event){set_type(event.target.textContent)};
+}
+function set_type(str_type){
+    if(str_type = "verb"){
+        list_of_index = verb
+    }
+    if(str_type = "keiyodoshi"){
+        list_of_index = keiyodoshi
+    }
+    if(str_type = "keiyoushi"){
+        list_of_index = keiyoushi
+    }
+    if(str_type = "noun"){
+        list_of_index = noun
+    }
+    next_stage()
+    title_screen_div.style.visibility="hidden";
+    the_game_div.style.visibility=null;
+
+};
 function hide_result_screen(){
     console.log("in hide_result")
     word_div.style.filter = null;
@@ -74,29 +120,7 @@ function get_surrounding_image(answers){
 //kanji
 //correct_image
 //failed_image
-let verb=[]
-let keiyoushi=[]
-let keiyodoshi=[]
-let noun = []
-for (var i=0;i<_type.length;i++){
-    var types_of_word = _type[i].split('/')
-    if(types_of_word.includes("verb")){
-        verb.push(i)
-    }
-    if(types_of_word.includes("keiyodoshi")){
-        keiyodoshi.push(i)
-    }
-    if(types_of_word.includes("keiyoushi")){
-        keiyoushi.push(i)
-    }
-    if(types_of_word.includes("noun")){
-        noun.push(i)
-    }
-}
-console.log(verb.length)
-console.log(keiyodoshi.length)
-console.log(keiyoushi.length)
-console.log(noun.length)
+
 
 function get_random_number(max){
      return Math.floor(Math.random()*max);
@@ -104,9 +128,13 @@ function get_random_number(max){
 
 let used_words = []
 //  random word index
-function get_next_word(type)
+function get_next_word()
 {
-    var word_index = Math.floor(Math.random()*meaning.length);
+    if (list_of_index==null){
+        return null
+    }
+    var word_index = Math.floor(Math.random()*list_of_index.length);
+    word_index = list_of_index[word_index]
     if (used_words.length<meaning.length){}
     while (used_words.includes(word_index)){word_index = Math.floor(Math.random()*meaning.length)}
     // get correct word
@@ -128,7 +156,10 @@ function get_next_word(type)
     return [word_index,missleading_index_1,missleading_index_2,correct_position,position_1,position_2]
 }
 function next_stage(){
-    let t = get_next_word(null)
+    let t = get_next_word()
+    if (t==null){
+        return
+    }
     let word_index = t[0]
     let missleading_1 = t[1]
     let missleading_2 = t[2]
@@ -152,7 +183,7 @@ function next_stage(){
     }
 }
 
-next_stage()
+
 //----------------- CHECK ANSWERS------------------------//
 
 // result = meaning[word_index];

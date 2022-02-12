@@ -113,6 +113,6 @@ flex-direction:column;
     justify-content: center;
     flex-direction:row;
 }
-#begin_button{
-
+._type{
+    width: auto;
 }
