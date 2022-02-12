@@ -24,6 +24,7 @@ for (var i=0;i<_type.length;i++){
     var types_of_word = _type[i].split('/')
     if(types_of_word.includes("verb")){
         verb.push(i)
+        console.log(types_of_word)
     }
     if(types_of_word.includes("keiyodoshi")){
         keiyodoshi.push(i)
@@ -135,13 +136,12 @@ function get_next_word()
         return null
     }
     var _word_index = Math.floor(Math.random()*list_of_index.length);
-    let word_index = list_of_index[_word_index]
-    if (used_words.length<meaning.length){}
-    while (used_words.includes(word_index)){word_index = Math.floor(Math.random()*list_of_index.length)}
+    
+    if (used_words.length>=list_of_index.length){}
+    while (used_words.includes(_word_index)){_word_index = Math.floor(Math.random()*list_of_index.length)}
     // get correct word
-    var correct_meaning = meaning[word_index];
-    var correct_spell = spell[word_index];
-    var correct_kanji = kanji[word_index];
+    let word_index = list_of_index[_word_index]
+    console.log(_type[word_index])
     var correct_type = _type[word_index];
     var missleading_index_1 = Math.floor(Math.random()*list_of_index.length);
     while (missleading_index_1 == _word_index){missleading_index_1 = Math.floor(Math.random()*list_of_index.length);}
@@ -149,8 +149,6 @@ function get_next_word()
     var missleading_index_2 = Math.floor(Math.random()*list_of_index.length);
     while (missleading_index_2 == _word_index){missleading_index_2 = Math.floor(Math.random()*list_of_index.length);}
     missleading_index_2 = list_of_index[missleading_index_2]
-    var missleading_meaning_1  = meaning[missleading_index_1];
-    var missleading_meaning_2  = meaning[missleading_index_2];
     var position_1 = Math.floor(Math.random()*3);
     var position_2 = Math.floor(Math.random()*3);
     while (position_2 == position_1){position_2 = Math.floor(Math.random()*3);}

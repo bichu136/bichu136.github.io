@@ -398,7 +398,7 @@ kanji,type,mean,spell
 慕う,verb,to love dearly; to yearn for; to follow; to idolize,したう
 読者モデル,noun,reader model; amateur model appearing in fashion Mag,どくしゃもでる
 話題,noun,topic; subject,わだい
-聞く,verb,to hear; to follow; to smell; to taste; to listen; to ask.
+聞く,verb,to hear; to follow; to smell; to taste; to listen; to ask,きく
 教室,noun,classroom,きょうしつ
 自分,pronoun,yourself;oneself,じぶん
 座席,noun,seat,ざせき
@@ -423,7 +423,7 @@ kanji,type,mean,spell
 水着,noun,bathing suit; swimsuit,みずぎ
 姿,noun,form;shape; dress; appearence,すがた
 和やか,keiyodoshi,smiling;beaming;bright;cheerful,にこやか
-微笑む,verb,to smile; ほほえむ
+微笑む,verb,to smile, ほほえむ
 最近,noun/fukushi,recently;lately;closest;nearest,さいきん
 有名,keiyodoshi/noun,famous​;fame,ゆうめい
 部活,noun,club activities,ぶかつ
@@ -444,7 +444,7 @@ kanji,type,mean,spell
 店先,noun,shopfront,みせさき
 並べる,verb,to line up,to set up,to arrange in a line,ならべる
 最新,noun,latest; newest; late-breaking news,さいしん
-置く,verb,to put; to place; おく
+置く,verb,to put; to place, おく
 表紙,noun,cover' appearing on the cover of magazine,ひょうし
 飾る,verb,to decorate; to mark; to display; to be showy,かざる
 取り,noun,takingl taker; collecting; collector,とり
@@ -626,7 +626,7 @@ kanji,type,mean,spell
 寝る,verb,to sleep,to ferment,ねむる
 拝命,noun,recieving an official appoint ment; being appointed,はいめい
 以上,expression/fukushi/noun,that's all; the end,いじょう
-失礼,verb,impoliteness,しつれい
+失礼,noun,impoliteness,しつれい
 背,noun,back,せ
 向ける,verb,to turn towards; to point,むける
 仁王立ち,verb,imposing stance;daunting stance,におうだち
@@ -651,7 +651,7 @@ kanji,type,mean,spell
 風,noun,wind; breeze; manner; behaviour,かぜ
 照れる,verb,to be shy; to feel awkward,てれる
 関係,noun,relation; relationship; connection,かんけい
-出会う,verb,to come across; to encounter; であう
+出会う,verb,to come across; to encounter, であう
 途中,noun/fukushi,on the way; in the middle of,とちゅう
 黙る,verb,to be silent; to say nothing,だまる
 打ち解ける,verb,to open one's heart; to throw off reserve; to be frank​,うちとける
