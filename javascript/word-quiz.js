@@ -20,6 +20,7 @@ let verb=[]
 let keiyoushi=[]
 let keiyodoshi=[]
 let noun = []
+let fukushi = []
 for (var i=0;i<_type.length;i++){
     var types_of_word = _type[i].split('/')
     if(types_of_word.includes("verb")){
@@ -34,6 +35,9 @@ for (var i=0;i<_type.length;i++){
     }
     if(types_of_word.includes("noun")){
         noun.push(i)
+    }
+    if(types_of_word.includes("fukushi")){
+        fukushi.push(i)
     }
 }
 let list_of_index
@@ -58,6 +62,9 @@ function set_type(str_type){
     }
     if(str_type == "noun"){
         list_of_index = noun
+    }
+    if(str_type=="fukushi"){
+        list_of_index = fukushi
     }
     next_stage()
     title_screen_div.style.visibility="hidden";
