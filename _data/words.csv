@@ -284,7 +284,6 @@ kanji,type,mean,spell
 色んな,rentaishi,various,いろんな
 有効,keiyodoshi/noun,valid;effective,ゆうこう
 感じ,noun,feeling; experience,かんじ
-猫背,noun,bend back,ねこぜ
 住む,verb,live;to inhabit,すむ
 内地,noun,inland; interior,ないち
 人より,fukushi,more than most people; compare with others,ひとより
@@ -720,4 +719,92 @@ kanji,type,mean,spell
 仲間外れ,noun, being leftout, なかまはずら
 直ぐさま,fukushi, immediately; promptly,すぐさま
 別れる, verb, to break up; to part from; to apart from,わかれる
-
+結局,fukushi,after all; in the end; conclusion, けっきょく
+相談,noun, consultation; discussion,そうだん
+今更(今さら),fukushi,now; again; a fresh,うまさら
+尋ね,noun, question; inquiry; asking
+撮影,noun,photography; photographing; filming,さつえい
+聞ける,verb, to tell, きける
+自覚,noun, self-conciousness; self-awareness, じかく
+お礼,noun,thans; reward; bow, おれい
+考える,verb, to think about; to think over, to contemplate; to reflect; to consider; to bear in mind; to suspect,かんがえる
+強引,noun,overbearing; coercive; pushy; forcible, ごういうん
+切る,verb, to sever; to turn off; to terminate; to cut,きる
+寂しさ,noun, loneliness; desolation, さびしさ
+覚え,noun, memory; sense; experience,おばえ
+就寝,noun, going to bed; retiring (for the night),しゅうしん
+早すぎる, noun/verb, untimely; early; はやすぎる
+頑張る(ガンバる),verb, to persevere;to persist; to hang on; to hold out, to insist that; to remain in a place, がんばる
+呟く,verb, to mutter; to murmur; to grumble,つぶやく
+眠気,noun, sleepiness; drowsiness, ねむき
+覚める,verb,to wake up,さめる
+部屋,noun, room;chamber; apartment, へや
+余り,fukushi, too much; extream; over,あまり
+睡魔,noun, sleepiness; drowsiness, すいま
+身,noun, body; oneself; one's place; one's position,み
+委ねる,verb, to entrust; to leave to; to abandon oneself; to devote oneself, ゆだねる
+朝,noun/fukushi, morning; breakfast, あさ
+擦る,verb, to scrub; to rub; to scrape, こする
+気合,noun, spirit; motivation; shout, きあい
+勇気,noun, courage; bravery, ゆうき
+店,noun, store;shop, みせ
+裏,noun, bottom; otherside; side hidden from view; うら
+日記,noun, daily; journal, にっき
+目的,noun, purpose; goal, もくてき
+状態,noun, condition; state; situation,じょうたい
+後回し,noun, putting off; postponing, おとまわし
+着替える,verb, to change clothes, きがえる
+恐縮,noun/keiyodoshi, feeling obliged; being grateful, きょうしゆき
+俯く,verb,to look down, うつむく
+突然,noun/keiyodoshi/fukushi, sudden; abrupt; unexpected, とつぜん
+逆,noun/keiyodoshi,reverse; opposite; converse,ぎゃく
+失恋,noun, disappointed love; broken heart; being lovelorn, しつれん
+恋愛,noun,love; love-making; passion; emotion; affections, れんあい
+気圧,noun, atmospheric pressure, きあつ
+天パ(テンパ),noun, naturally curly hair, てんぱ
+以外,noun/fukushi, expecting; excluding,いがい
+聞き耳,noun, straining one's ear,ききみみ
+効果,noun,effect; effectiveness; efficacy; result,こうか
+天然,noun, nature; spntaneity；natural airhead；；, てんねん
+姿勢,noun,posture; pose; position; stance; carriage (of the body), しせい
+矯正,noun, correction; remedy; reform, きょうせい
+抜く,noun, to extract; to omit; to pull out; to weed, ぬく
+伸びる,verb, to strech; to extend; to lengthen; to grow,のびる
+名案,noun, good idea, めいあん
+真剣,keiyodoshi,serious; earnest, しんせん
+真剣,noun,real sword,しんせい
+御用,noun,cocern; order,ごよう
+お安い,keiyoushi,easy;simple, おやすい
+目指す,verb, to aim at; to try for; to go toward; to head for, めざす
+口,noun, mouth,くち
+絞り出す,to squeeze out; to wring out,しばりだす
+見せつける,verb, to show off; to flaunt, みせつける
+ガン見,noun, gazing at; glaring, がんみ
+感じる,verb, to feel; to sense; to experience, なんじる
+周り,noun, surrounding, まわり
+辺り,noun/fukushi, vicinity; surroundings; nearby,あたり
+見回す,verb, to look around; to survey,みまわす
+いつの間にか,fukushi, before one knows; before one becomes aware of, いつのまにか
+獲物,noun, loot; prey, えもの
+鈍感,keiyodoshi/noun, insensitive; thickheaded; dull, どんかん
+望む,noun,to desire;ti wish; to expect; to see, のぞむ
+微笑ましい,keiyoushi,pleasant; charming, ほほえましい
+ぼっと,fukushi, suddenly blushing,___
+湯気,noun,steam; vapour; vapor, ゆげ
+性格,noun, personality; characteristics, せいがく
+変える,verb, to change; to alter; to transform, かかえる
+努力,noun, endeavor; hard workd; striving, どりょうく
+前向き,keiyoudoshi,front-facing; forward-looking; positive, まえむき
+明るい,keiyoushi,light; well-lit, あかるい
+しょんぼり,fukushi,dejected; downheartedly, しょんぼり
+行動,noun,action; behaviour,こうどう
+息を止める,verb, to hold one's breath, いきをとめる
+深呼吸,noun, deep breath, しんこきゅう
+憧れます,verb, to yearn after; to be attracted by, あこがれる
+深く,fukushi, deeply; sincerely, ふかく
+格好,noun,figure; posture, pose, かつこう
+王子,noun, prince, おうじ
+待ち受ける,verb, to await; to expect, まちうける
+大会,noun, convention; conference,たいかい
+常に,fukushi, always; constantly, つねに
+変態,noun, hentai, へんたい
