@@ -1,0 +1,41 @@
+.item-img-wrap{
+}
+.about-wrap{
+    display:flex; 
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+
+#svg-person{
+    flex-grow:2;
+    background-color: gray;
+    border-radius: 50%;
+    border-style:solid;
+    border-color:white;
+    border-width: 15px;
+    //box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+    max-width: 15vw;
+    width:15vw;
+    height:15vw;
+    padding:10px;
+    margin:0px;
+    
+}
+.svg{
+    width:100%;
+    height:100%;
+}
+.item-about-box{
+    flex-grow: 1;
+    padding:1%;
+    background: white;
+    max-width: 75vw;
+    border-radius: 5vh;
+}
+@media screen and (max-width:300px) {
+    .item-img-wrap{
+        width:100%;
+        height:100%;
+    }
+}
