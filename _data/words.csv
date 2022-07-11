@@ -8,7 +8,7 @@ kanji,type,mean,spell
 上げる,verb,raise; elevate; give,あげる
 秋,noun/fukushi,autumn,あき
 頃,noun/adverb,time,ころ
-仲の良い,Expression/keiyoshi,close,なかのよい
+仲の良い,expression/keiyoshi,close,なかのよい
 友達,noun,friend,ともだち
 連中,noun,gang; company; lot; pack; those guy; group,れんちゅう
 次々,fukushi/noun,in succession; one by one,つぎつぎ
@@ -46,7 +46,7 @@ kanji,type,mean,spell
 届く,verb,reach,とどく
 祝福,noun,blessing,しゅくふく
 飽きる,verb,get tired of; lose instersted in,あきる
-使う,verb,use; make use of; put to use,つかる
+使う,verb,use; make use of; put to use,つかう
 クラス,noun,class,くらす
 連絡網,noun,contact network,れんらくもう
 回る,verb,turn; resolve; visit someplace; function well; pass a certain time,まわる
@@ -264,7 +264,7 @@ kanji,type,mean,spell
 謝る,verb,apologize,あやまる
 小さい,keiyoushi,small;little;tiny,ちいさい
 取れる,verb,to come off; to be removed; to be obtainable,とれる
-最後,noun,end;conclusion;las夜t;final;latest,さいご
+最後,noun,end;conclusion;last;final;latest,さいご
 聞き,noun,hearing,きき
 今度,noun/fukushi,this time;now; another time; nex time,こんど
 喜ぶ,verb,to be delighted; to be glad; to congratulate,よろこぶ
@@ -726,7 +726,7 @@ kanji,type,mean,spell
 撮影,noun,photography; photographing; filming,さつえい
 聞ける,verb, to tell, きける
 自覚,noun, self-conciousness; self-awareness, じかく
-お礼,noun,thans; reward; bow, おれい
+お礼,noun,thanks; reward; bow, おれい
 考える,verb, to think about; to think over, to contemplate; to reflect; to consider; to bear in mind; to suspect,かんがえる
 強引,noun,overbearing; coercive; pushy; forcible, ごういうん
 切る,verb, to sever; to turn off; to terminate; to cut,きる
@@ -794,7 +794,7 @@ kanji,type,mean,spell
 性格,noun, personality; characteristics, せいがく
 変える,verb, to change; to alter; to transform, かかえる
 努力,noun, endeavor; hard workd; striving, どりょうく
-前向き,keiyoudoshi,front-facing; forward-looking; positive, まえむき
+前向き,keiyodoshi,front-facing; forward-looking; positive, まえむき
 明るい,keiyoushi,light; well-lit, あかるい
 しょんぼり,fukushi,dejected; downheartedly, しょんぼり
 行動,noun,action; behaviour,こうどう
@@ -808,3 +808,53 @@ kanji,type,mean,spell
 大会,noun, convention; conference,たいかい
 常に,fukushi, always; constantly, つねに
 変態,noun, hentai, へんたい
+席,noun,seat, せき
+隣,noun, next; adjoining; adjacent; nextdoor neighbor,となり
+恩恵,noun,grace; favor; favour; blessing; benefit,おんせい
+享受,noun, reception; acceptance; enjoyment; being given,きょうじゅ
+授業,noun, class; lesson, じゅぎょう
+割と,fukushi, relatively; fairly; rather; pretty, わりと
+終了,noun,end; close; termination, しゅう
+りょう
+チャイム,noun, chime, ちゃいむ
+鳴り,noun,ringing,なり
+退散,noun,dispersal; breaking up, たいさん
+購買,noun, purchase; school canteen, きょうばい
+買い,noun, buying; shopping, かい
+食う,verb, to eat,くう
+昼飯,noun, lunch, ひるめし
+出る,verb; to come to; to leave; to move forward; to set out, だる
+酢豚,noun,sweet-and-sour pork, すぶた
+弁当,noun, bento,べんとう
+近づく,verb, to approach; to draw near; to get close, さかづく
+小走り,noun,trot; half run; jog,こばしり
+哀しい,keiyoushi,sad; miserable; unhappy; sorrowful, かなしい
+可也,adverb/noun, considerably; fairly; quite; rather, かなり
+注目,noun, attention; notice; observation, ちゅうもく
+浴びる,noun,to bask in ,あびる
+存在, noun, existence; being, そんざい
+相当,noun/keiyodoshi, being equivalent to, appropriate; befitting, そうとう
+騒めく,verb, to be noisy; to be murmur,ざわめく
+周り,noun,circumference; people surrounding oneself,まわり
+台詞,noun,comment; remark; phrase; words,せりふ
+勘弁,noun, pardon; forgiveness, かんべん
+冗談, noun, joke, , じょうだん
+アンケート,noun,questionnaire; survey; poll​,あんけうと
+集める,verb, to collect; to gather, あつめる
+結果,noun/fukushi, result; as a result, therefore,けっか
+下旬,fukushi/noun,last week of a month,げじゅん
+期末,noun, end of term, きまつ
+同時,noun, simultaneous; concurrent; synchronous,　どうじ
+突入,noun,rushing into; breaking into,とつにゅ
+了解,noun,comprehension; consent; understanding; agreement,りょうかい
+特に,fukushi, particularly, とくに
+雑用,noun,odd jobs; miscellaneous affairs,ざつよう
+引き受ける,verb, to take on; to inherit; to take over; to assume resposibility for, ひきうける
+毒化,noun, toxication,どっか
+憂鬱,keiyoushi,melancholy; depression; gloom, ゆうっつ
+頼る,verb,to depend on; to count on; to turn to (for help),たよる
+委員長,noun,chairman; president, いいんちょう
+お仕事,noun, work, job； labor, おしごと
+肩代わり,noun,taking over another's debt; shouldering someone else's burden,かたがわり
+と言うのに,expression,even though; despite; when, というのに
+情緒的,keiyodoshi, emotional; sentimental, じょうちょてき

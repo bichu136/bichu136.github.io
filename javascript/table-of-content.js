@@ -59,14 +59,37 @@ function test(root){
     }
     for(let i=0;i<root.children.length;i++){
         var li = document.createElement('li');
+        var drop_chars = document.createElement('span');
+        drop_chars.setAttribute('class','dropdown button');
+        drop_chars.innerHTML = "▶";
+        
         var link = document.createElement('a');
         link.setAttribute('href','#'+root.children[i].element.id)
-        li.appendChild(link)
+        
+        
         link.innerHTML =  root.children[i].element.innerHTML
         r.appendChild(li);
+        leaf = true;
         if (root.children[i].children.length>0){
-            r.appendChild(test(root.children[i]))
+            let k = test(root.children[i])
+            k.style.display = "none";
+            li.appendChild(drop_chars)
+            drop_chars.onclick = function(e){
+                if (k.style.display =="none"){
+                    k.style.display = "block";
+                }
+                else{
+                    k.style.display = "none";
+                }
+            }
+            li.appendChild(link)
+            r.appendChild(k)
         }
+        else{
+            li.appendChild(link)
+        }
+        
+        
     }
     return r;
 }

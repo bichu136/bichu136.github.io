@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Bichu136's Blog
-email: your-email@example.com
+email: bicagu123@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   bichu136'blog and come to see all random things he learnt
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -41,6 +41,9 @@ defaults:
       path: "assets/Failed"
     values:
       Failed: true
+sass:
+    sass_dir: _sass
+    style: compact
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

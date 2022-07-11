@@ -6,14 +6,16 @@ layout: root
 
 </div>
 <div class = 'wrap'>
-    <div id="nav-bar">
-        <div id= 'web_title'>{{site.title}}</div>
-        <div id ="spacing"></div>
-        <div id='about'><a href = '/about/'>About</a></div>
-    </div>
+    {% include header.html%}
     <hr></hr>
-    <div id = "content">
 
+    <div id = "content">
+        <div id="table-of-content-button">
+            <p>BUTTON</p>
+            <div id='table-of-content' style='min-width:100px;min-height: 100px; background-color: aqua;'>
+        
+            </div>
+        </div>
         {{content}}
     </div>
 </div>
