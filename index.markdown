@@ -6,8 +6,14 @@ layout: home
 title: bichu136's Blogs
 ---
 
-
-<div class="" style="">
+<div id="table-of-content-button">
+        <div class="nav-button">
+        </div>
+        <div id='table-of-content' style='min-width:100px;min-height: 100px; background-color: aqua;'>
+    
+        </div>
+    </div>
+<div class="ct" style="">
     <div id="home" style="min-height:100vh;max-height:100vh; background-color:blue; "></div>
     <div id="about">
         <h2>About Me</h2>
@@ -38,7 +44,7 @@ title: bichu136's Blogs
             <li>slider with Genshin Bow tech </li>
             <li>flexbox about Amber</li>
             hover đổi ảnh.
-            
+
             <li>recent posts</li>
         </ul>
     </div>
