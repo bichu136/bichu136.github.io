@@ -1,0 +1,42 @@
+.mainBanner{
+    min-height:100vh;
+    max-height:100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+#avatar{
+    min-width: 160px;
+    min-height: 160px;
+    background-color: coral;
+    border-radius: 50%;
+}
+.mainBanner-image{
+    z-index:-100;
+    position:absolute;
+    top:0px;
+    left:0px;
+    min-width: 100%;
+    min-height: 100%;
+    // background-image:url("/assets/background2.jpg");
+    background-color: darkslategray;
+    background-size:cover;
+    background-position: right;
+    filter:blur(5px);
+}
+.mainBanner-canvas-wrap {
+    canvas{
+        min-width:inherit;
+        min-height:inherit;
+        // min-width: 100%;
+        // min-height: 100%;
+    }
+    z-index:-99;
+    position:absolute;
+    top:0px;
+    left:0px;
+    min-width: 100%;
+    min-height: 100%;
+}

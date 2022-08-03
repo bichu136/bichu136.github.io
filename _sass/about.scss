@@ -1,0 +1,50 @@
+.item-img-wrap{
+    min-width: 100px;
+    min-height: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.about-wrap{
+    display:flex; 
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+
+#svg-person{
+    flex-grow:2;
+    background-color: gray;
+    border-radius: 50%;
+    border-style:solid;
+    border-color:white;
+    border-width: 15px;
+    //box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+    min-width: 100px;
+    min-height: 100px;
+    width:15vw;
+    height:15vw;
+    padding:10px;
+    margin:0px;
+    
+}
+.svg{
+    width:100%;
+    height:100%;
+    min-width: 100px;
+    min-height: 100px;
+}
+.item-about-box{
+    flex-grow: 1;
+    padding:1%;
+    background: white;
+    max-width: 60vw;
+    border-radius: 5vh;
+}
+@media screen and (max-width:720px) {
+    .item-img-wrap{
+        width:100%;
+        height:100%;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,17 @@
+<div id="nav-bar">
+    <div id= 'web_title'><a href="/"><i class="material-icons">home</i></a></div>
+    <div id ="spacing">
+        <div class="nav-tag" style = "text-align:center">
+            {% for tag in site.tags %}
+            <div>
+                <a href="/all_post#{{tag[0]}}">{{tag[0]}}</a>
+            </div>
+            {% endfor %}
+
+        </div>
+
+    </div>
+    <div id='about'><a href = '/all_post'>All Posts</a></div>
+</div>
+
+<script src="/javascript/navbar.js" type="text/javascript"></script>

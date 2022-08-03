@@ -1,0 +1,66 @@
+#table-of-content-button{
+    // top: 100px;
+    // left: 100px;
+    position:fixed;
+    align-self:flex-start;
+    width:fit-content;
+    // width:30%;
+    display: flex;
+    font-size:2vw;
+    transition: top 0.01s, left 0.01s, right 0.01s, bottom 0.01s;
+    
+    z-index: 9999;
+
+}
+.nav-button{
+  background-image: url("assets/Amber_ball.png");
+  width:80px;
+  height:80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+#table-of-content ul {
+    list-style-type: none;
+    margin-bottom: 0.5vw;
+}
+#table-of-content ul li{
+  list-style-type: none;
+  margin-bottom: 0.5vw;
+}
+#table-of-content{
+  display:none;
+}
+#table-of-content:hover{
+  display:block;
+}
+
+.at-top{
+  align-items: flex-start;
+}
+  
+.at-left{
+  flex-direction: row;
+}
+  
+  
+.at-bottom{
+  align-items: flex-end;
+}
+  
+.at-right{
+  flex-direction: row-reverse;
+  // text-align: right;
+}
+  
+// .reverse #table-of-content {
+//   > ul {
+//     transform: rotate(180deg);
+//   }
+//   ul > li {
+//     transform: rotate(-180deg);
+//   }
+//   // ul > ul{
+//   //   transform: rotate(180deg);
+//   // }
+// }

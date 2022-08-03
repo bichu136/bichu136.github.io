@@ -1,0 +1,35 @@
+.post_item{
+    min-width:30%;
+    max-width: 30%;
+
+    background-color:coral;
+    margin:2.5%;
+}
+.post_slider_wrap{
+    overflow: scroll;
+    display:flex;
+    min-width:90%;
+    max-width:90%;
+    justify-content: flex-start;
+    max-height: 460px;
+    flex-direction: row;
+    order:2;
+}
+.post_button{
+    align-self:center;
+    min-width:5%;
+    max-width: 5%;
+}
+#post_btn_left{
+    order:1;
+    left:5px;
+}
+#post_btn_right{
+    text-align: right;
+    order:3;
+}
+#posts_wrapper{
+    display:flex;
+    align-content: space-between;
+    justify-content:center;
+}

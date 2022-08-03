@@ -1,0 +1,25 @@
+<div id="posts_wrapper">
+    <div class="post_slider_wrap">
+        {% for post in site.posts %}
+        <div class="post_item">
+            <figure>
+                <img src="/assets/newspaper.jpeg" style="max-width: 100%;">
+            </figure>
+            <a href = '{{post.url}}'>
+                <div class = 'post-card'>
+                    <h4>{{ post.title }}</h4><br>{{post.tag}}
+                </div>
+            </a>
+        </div>
+        
+        {% endfor %}
+
+    </div>
+    <div class ="post_button" id="post_btn_left">
+        <
+    </div>    
+    <div class ="post_button" id="post_btn_right">
+        >
+    </div>
+    
+</div>

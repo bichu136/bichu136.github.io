@@ -1,0 +1,64 @@
+$color-1: #1dc8a6;
+$color-2: #501dc8;
+$color-3: #c81d3f;
+$color-4: #95c81d;
+.carosel-slider{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    min-width:100%;
+    min-height:100px;
+    transition: transform ease-in 2s;
+}
+
+.slide{
+    min-width:100%;
+    transition: transform ease-in 0.5s;
+}
+#slide-1{
+    background-color: $color-1;
+    order: 1;
+}
+#slide-2{
+    background-color: $color-2;
+    order: 2;
+}
+#slide-3{
+    background-color: $color-3;
+    order: 3;
+}
+#slide-4{
+    background-color: $color-4;
+    order: 4;
+}
+.slide-inactive{
+    transform: scale(0.8);
+}
+.slide-active{
+    transform: scale(1.0);
+}
+
+.carosel-buttons-wrap{
+    min-width: 20px;
+    min-height: 20px;
+    display: flex;
+    background-color:gray;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    opacity: 0.2;
+}
+.caro-button{
+    min-width:18px;
+    min-height:18px;
+    max-width:18px;
+    max-height:18px;
+    background-color: red;
+}
+.caroBtn-active{
+    background-color: yellow;
+}
+.caroBtn-inactive{
+    background-color: red;
+}

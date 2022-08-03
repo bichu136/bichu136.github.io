@@ -1,0 +1,32 @@
+---
+layout: root
+style: >-
+    <link rel="stylesheet" href='/css/word-quiz-style.css'>
+scripts: >-
+    <script src="/javascript/word-quiz.js"></script>
+---
+<script>
+    let meaning = [{% for word in site.data.words %}"{{word.mean}}",{% endfor %}
+    ];
+    
+    let kanji = [{% for word in site.data.words %}"{{word.kanji}}",{% endfor %}
+    ];
+    let _type = [{% for word in site.data.words %}"{{word.type}}",{% endfor %}
+    ];
+    let spell = [{% for word in site.data.words %}"{{word.spell}}",{% endfor %}
+    ];
+</script>
+<script>
+    let correct_image = [ {% assign failed_image = site.static_files | where: "Correct", true %}
+    {% for y in failed_image %}
+        "{{ y.path }}",
+    {% endfor %} ];
+    let failed_image = [ {% assign failed_image = site.static_files | where: "Failed", true %}
+    {% for y in failed_image %}
+        "{{ y.path }}",
+    {% endfor %} ];
+</script>
+
+{% include word_quiz_title_screen.html %}
+{% include word_quiz_the_game.html %}
+{% include word_quiz_result.html %}

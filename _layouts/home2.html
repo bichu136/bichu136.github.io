@@ -1,0 +1,32 @@
+---
+layout: root
+scripts: >-
+    <script src="javascript/home.js"></script>
+---
+<!-- headerbar -->
+<div class = 'background'>
+
+</div>
+<div class = 'wrap'>
+
+
+    <!-- nav-bar -->
+    {% include header.html%}
+    <hr></hr>
+    <!-- <div class='front-page-panel'>
+        <h1>{{page.title}} </h1>
+    </div> -->
+
+<div id = "content">
+
+    <div id="table-of-content-button">
+        BUTTON    
+        <div id='table-of-content' style='min-width:100px;min-height: 100px; background-color: aqua;'>
+    
+        </div>
+    </div>
+    <div class='flex-item-container' style = "overflow: auto;">
+        {{content}}
+    </div>
+</div>
+</div>
