@@ -21,7 +21,7 @@ với những điều nói trên, việc duy nhất có thể điều khiển m�
 ### Mặc định 
 ![Mặc định](/assets/wallpaper_posts/overall screen.png)
 ### Hardware: hover vào biểu tượng ổ cứng
-![CPU](assets/wallpaper_posts/hardware_cpu.png)
-![GPU](assets/wallpaper_posts/hardware_cpu.png) 
+![CPU](/assets/wallpaper_posts/hardware_cpu.png)
+![GPU](/assets/wallpaper_posts/hardware_cpu.png) 
 ### duyệt file: hover vào biểu tượng thư mục
-![Folder](assets/wallpaper_posts/folder_explorer.png) 
+![Folder](/assets/wallpaper_posts/folder_explorer.png) 
