@@ -1,4 +1,8 @@
 <div class="mainBanner" >
+    {% assign ball_images = site.static_files | where: "DFCI_BALL", true %}
+    {% for myimage in ball_images %}
+        <img id="{{myimage.basename}}" class="dfci_ball" src="{{ myimage.path }}">
+    {% endfor %}
     <div class="mainBanner-image">
         
     </div>

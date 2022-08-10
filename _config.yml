@@ -41,6 +41,10 @@ defaults:
       path: "assets/Failed"
     values:
       Failed: true
+  - scope:
+      path: "assets/MainBannerBalls"
+    values:
+      DFCI_BALL: true
 sass:
     sass_dir: _sass
     style: compact
