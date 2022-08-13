@@ -8,7 +8,11 @@ categories: dengeki_bunko_fighting_climax
 
 # ASUNA
 
-TODO: update later
+|assist|link_gif|cost/requirement|combo_notation|note|base damage output|
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+{% for card in site.data.dfcicombo.Asuna %}| {{card.assist}} |<img src="{{card.link_gif}}"/>|{{card["cost/requirement"]}}|{{card.combo_notation}}|{{card.node}}|{{card["base damage output"]}}|
+{% endfor %}
 
 # YUUKI
 TODO: update later

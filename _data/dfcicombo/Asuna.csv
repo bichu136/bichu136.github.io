@@ -1,0 +1,6 @@
+assist,link_gif,cost/requirement,combo_notation,note,base damage output
+Any,/assets/DengekiBunkoCombos/Asuna/AutoCombo.gif,1 bar, A>B>C>AB>236AB,this is what the character would do if you just mash A,XXXX
+Any,/assets/DengekiBunkoCombos/Asuna/Basic5Bar.gif,5 bars, A>B>C>236C>214AB>foward jump(9)>jC>j236AB>B>236C>236AB>41236BC, ,XXXX
+Any,/assets/DengekiBunkoCombos/Asuna/AirCombo_4AB.gif,4 bars, 4AB, ,XXXX
+Any,/assets/DengekiBunkoCombos/Asuna/Instantj236A.gif,3 bars, A>B>C>j236A>236AB>41236BC, ,3351
+Any,/assets/DengekiBunkoCombos/Asuna/PowerBlast.gif,1 bar/blast gauge, A>B>C>AB>236EX>41236BC,+2 bar power blast install option,XXXX
