@@ -1,9 +1,40 @@
 <div id="DFCI_DIV">
-    <div id="idle_canvas_wrapper" >
-        <canvas id="IdleAnimation">
+    <div style="display: flex;">
+        <div id="idle_canvas_wrapper" >
+            <canvas id="IdleAnimation">
 
-        </canvas>    
+            </canvas>    
+        </div>
+        <div id="chara_info" >
+            <span>Stat</span>
+            <div id="chara_stat_wrap">
+                <div class="chara_stat">
+                    <div>
+                        <img src="/assets//IdleAnimation/BlastPoint/blast2.png"/>
+                        <img src="/assets//IdleAnimation/BlastPoint/blast_none2.png"/>
+                    </div>
+                    
+                </div>
+            </div>
+            <span>Description</span>
+            <div id="chara_descript_wrap" >
+                <div class="chara_descript">
+                    something
+                </div>
+            </div>
+        </div>
     </div>
-    
+    <div id="chara-select-wrapper" style="display: flex; width:100%;align-items: center; justify-content: space-between; overflow:auto;">
+
+    </div>
 </div>
-<script src="/javascript/dfci/IdleAnimation.js"></script>
+
+<script>
+let chara_info = [{% for infoIndex in site.data.dfci_chara_info %}
+{"ID":"{{infoIndex.charaId}}",
+"name":"{{infoIndex.name}}",
+"description":"{{infoIndex.description}}"
+},
+{% endfor %}]
+</script>
+<script src="/javascript/dfci/DFCICharaInfo.js"></script>
