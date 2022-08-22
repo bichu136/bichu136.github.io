@@ -7,6 +7,7 @@
 #idle_canvas_wrapper{
     width:50%;
     height: 60vh;
+    min-height:500px;
 }
 
 #chara_info{
@@ -16,6 +17,7 @@
     left: 0;
     overflow: hidden;
     height:60vh;
+    min-height:500px;
     background-color: coral;
     span{
         // font-size: 1.5vw;
@@ -35,11 +37,10 @@
             color:white;
             margin-left:1%;
             margin-bottom:2%;
-            height:98%;
+            height:90%;
             // width:85%;
             overflow:auto;
             padding-left:20px;
-            padding-top:20px;
             clip-path: polygon(0% 10%,2.5% 0%,100% 0%,100% 100%,2.5% 100%,0% 90%);
             // clip-path: polygon(0% 10%,10% 0%,10% -10%,50% -10%,50% 0%,100% 0%,100% 100%,10% 100%,0% 90%);
         }
