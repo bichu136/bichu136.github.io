@@ -213,7 +213,7 @@ for(let i = 1; i<=IdleNumberFrame.length;i++){
         current_sprite = i-1;
         movement = -250;
         charaInfo.style.left = 5000;
-        // let changeCharaTimeout = setTimeout(()=>{charaInfo.style.left = 0;},100);
+        let changeChara1Timeout = setTimeout(()=>{charaInfo.style.left = 0;},100);
         
 
     });
@@ -272,8 +272,3 @@ WaitLoadAssets();
 // },500);
 
 // color for stat bars: red|   green|  orange but yellowish|   blue but cyanish| pink but purpleish
-for(let i = 0; i<IdleNumberFrame.length;i++){
-    console.log("insert into CHARA values('"+IdleNumberFrame[i]["Name"]+"','"+chara_info[i]["name"]+"','"+chara_info[i]["description"]+"',"+chara_info[i]["offense"]+","+chara_info[i]["deffence"]+","+chara_info[i]["range"]+","+IdleNumberFrame[i]["X_offset"]+","+IdleNumberFrame[i]["Y_offset"]+","+CharaSelectDict[IdleNumberFrame[i]["Name"]]["x"]+","+CharaSelectDict[IdleNumberFrame[i]["Name"]]["y"]+","+IdleNumberFrame[i]["NumberOfFrame"]+");");
-}
-
-
