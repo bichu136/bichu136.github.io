@@ -1,6 +1,7 @@
 #DFCI_DIV{
     min-width: 100%;
     max-width: 100%;
+    overflow: hidden;
 }
 // #IdleAnimation{
 // }
@@ -63,4 +64,7 @@
             // clip-path: polygon(0% 10%,10% 0%,10% -10%,50% -10%,50% 0%,100% 0%,100% 100%,10% 100%,0% 90%);
         }
     }
+}
+.chara-select{
+    margin-right:1vw;
 }

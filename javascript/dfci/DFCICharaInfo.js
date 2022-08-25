@@ -1,36 +1,15 @@
-let IdleAniCanvas = document.getElementById("IdleAnimation");
-let IdleAniCanvasCtx = IdleAniCanvas.getContext("2d");
-let statCanvas = document.getElementById("statCanvas");
-let statCanvasCtx = statCanvas.getContext("2d");
-let IdleAniCanvasWrapper = document.getElementById("idle_canvas_wrapper");
-let charaStat = document.getElementsByClassName("chara_stat")[0];
-let scale_factor = IdleAniCanvasWrapper.offsetWidth / 1000;
-//all images
+// controll what char on screen
+let current_sprite = 10;
+//transition parameter
+let movement = -250;
+let v_movement = 75;
 
-let NumOfImg = 0;
-let BlastImg = document.createElement("img");
-NumOfImg +=1;
-let BlastNoneImg = document.createElement("img");
-NumOfImg +=1;
-BlastImg.src = "/assets/IdleAnimation/BlastPoint/blast2.png";
-BlastNoneImg.src = "/assets/IdleAnimation/BlastPoint/blast_none2.png";
-let AnimationIdles = []
-for(let j = 0;j<IdleNumberFrame.length;j++){
-    AnimationIdles.push([]);
-    for(let i = 0;i<IdleNumberFrame[j]["NumberOfFrame"];i++){
-        let IdleImg = document.createElement("img");
-        NumOfImg +=1;
-        IdleImg.src = "/assets/IdleAnimation/"+IdleNumberFrame[j]["Name"]+"/"+i.toString()+".png";
-        AnimationIdles[j].push(IdleImg);
-    }
-}
-let CharaSelectTexture = document.createElement("img");
-NumOfImg +=1;
-CharaSelectTexture.src = "/assets/charasele_main00.png";
-IdleAniCanvas.width = IdleAniCanvasWrapper.offsetWidth;
-IdleAniCanvas.height = IdleAniCanvasWrapper.offsetHeight;
-statCanvas.height = charaStat.offsetHeight;
-statCanvas.width = charaStat.offsetWidth;
+
+
+
+let offenseLine = new StatLine(0,10,"Offense","red",charaStat.offsetWidth,30);
+let defenceLine = new StatLine(0,80,"Defence","green",charaStat.offsetWidth,30);
+let rangeLine = new StatLine(0,150,"Range","blue",charaStat.offsetWidth,30);
 function setScaleFactor(){
     let k = 0;
     k = IdleAniCanvasWrapper.offsetWidth;
@@ -41,7 +20,6 @@ function setScaleFactor(){
 
 }
 setScaleFactor();
-console.log(scale_factor)
 IdleAniCanvasCtx.scale(scale_factor,scale_factor);
 // statCanvasCtx.scale(scale_factor,scale_factor);
 window.addEventListener('resize',()=>{
@@ -56,38 +34,22 @@ window.addEventListener('resize',()=>{
     IdleAniCanvasCtx.scale(1,1);
     // statCanvasCtx.scale(1,1);
     setScaleFactor();
-    console.log(scale_factor)
     // IdleAniCanvas.width = IdleAniCanvas.width*scale_factor;
     IdleAniCanvasCtx.scale(scale_factor,scale_factor);
     // statCanvasCtx.scale(scale_factor,scale_factor);
     
     // console.log("right width",IdleAniCanvas.width*scale_factor)
+    try{
+        offenseLine.width = charaStat.offsetWidth;
+        defenceLine.width = charaStat.offsetWidth;
+        rangeLine.width = charaStat.offsetWidth;    
+    } catch (error) {
+        
+    }
 });
 
-// draw(ctx){
-//     ctx.beginPath();
-//     ctx.arc(this.x,this.y,this.r,0,2*Math.PI);
-//     ctx.fill();
-//     console.log()
-//     let offset_x = dfci_ball_offset[this.img_src.getAttribute("id")]["x"]
-//     let offset_y = dfci_ball_offset[this.img_src.getAttribute("id")]["y"]
-//     ctx.drawImage(this.img_src,this.x-this.r-offset_x,this.y-this.r-offset_y);
-//     ctx.closePath();
 
-    
-// }
 
-// size w:56 h:144
-// 12 9
-// 92 9
-// 12 169
-
-let img_index= 0;
-let change_after = 5;
-let change_index = 1;
-let current_sprite = 10;
-let movement = -250;
-let v_movement = 75;
 
 function drawStatLine(lvl,x,y,ctx){
     let color = ["#e33714","#33f01a","#f2c327","#26a1c7","#c845d9"]
@@ -124,59 +86,39 @@ function drawStatLine(lvl,x,y,ctx){
     }
     
 }
+
+
 function drawStat(){
-    statCanvasCtx.clearRect(0,0,10000,1000);
-    let _range = chara_info[current_sprite]["range"];
-    let _offense = chara_info[current_sprite]["offense"];
-    let _deffence = chara_info[current_sprite]["deffence"];
-    drawStatLine(_offense,0,10,statCanvasCtx);
-    drawStatLine(_deffence,0,80,statCanvasCtx);
-    drawStatLine(_range,0,150,statCanvasCtx);
-    statCanvasCtx.strokeStyle = "red";
-    statCanvasCtx.fillStyle = "white";
-    statCanvasCtx.font="25px Aerial";
-    statCanvasCtx.lineWidth= 0.5;
-    statCanvasCtx.fillText("Offense",0,60);
-    statCanvasCtx.strokeText("Offense",0,60);
-    statCanvasCtx.strokeStyle = "green";
-    statCanvasCtx.fillStyle = "white";
-    statCanvasCtx.font="25px Aerial";
-    statCanvasCtx.lineWidth= 0.5;
-    statCanvasCtx.fillText("Defence",0,130);
-    statCanvasCtx.strokeText("Defence",0,130);
-    statCanvasCtx.strokeStyle = "blue";
-    statCanvasCtx.fillStyle = "white";
-    statCanvasCtx.font="25px Aerial";
-    statCanvasCtx.lineWidth= 0.5;
-    statCanvasCtx.fillText("Range",0,200);
-    statCanvasCtx.strokeText("Range",0,200);
+    // statCanvasCtx.clearRect(0,0,10000,1000);
+    let _range = DFCICharaDict[charaOrder[current_sprite]].range;
+    let _offense = DFCICharaDict[charaOrder[current_sprite]].offense;
+    let _deffence = DFCICharaDict[charaOrder[current_sprite]].defence;
+    
+    //drawStatLine(_offense,0,10,statCanvasCtx);
+    offenseLine.draw(_offense,statCanvasCtx);
+    defenceLine.draw(_deffence,statCanvasCtx);
+    rangeLine.draw(_range,statCanvasCtx);
 }
 let previous_sprite = current_sprite;
 function drawLoop(){
     drawStat();
     //draw for animations
-    img_index = (img_index+1)%AnimationIdles[current_sprite].length;
-    // if (img_index == 0) {
-    //     change_index=(change_index+1)%change_after;
-    //     // if(change_index==0){
-    //     //     current_sprite=(current_sprite +1)%AnimationIdles.length;
-    //     // }
-    // };
-    
+    // img_index = (img_index+1)%DFCICharaDict[charaOrder[current_sprite]].Animation.length;
     movement+=v_movement;
     if (movement>0){
         movement = 0;
     }
     
     IdleAniCanvasCtx.clearRect(0,0,10000,1000);
+    console.log(DFCICharaDict[charaOrder[current_sprite]].X_offset,DFCICharaDict[charaOrder[current_sprite]].Y_offset);
+    let x = movement+DFCICharaDict[charaOrder[current_sprite]].X_offset;
+    let y = DFCICharaDict[charaOrder[current_sprite]].Y_offset;
+    DFCICharaDict[charaOrder[current_sprite]].draw(IdleAniCanvasCtx,x,y);
+    // IdleAniCanvasCtx.beginPath();
 
-
-
-    IdleAniCanvasCtx.beginPath();
-
-    IdleAniCanvasCtx.drawImage(AnimationIdles[current_sprite][img_index],movement+IdleNumberFrame[current_sprite]["X_offset"],IdleNumberFrame[current_sprite]["Y_offset"]);
+    // IdleAniCanvasCtx.drawImage(AnimationIdles[current_sprite][img_index],movement+DBcharaInfo[charaOrder[current_sprite]]["X_offset"],DBcharaInfo[charaOrder[current_sprite]]["Y_offset"]);
     
-    IdleAniCanvasCtx.closePath();
+    // IdleAniCanvasCtx.closePath();
     //---------------------------------------------------------------------------------------------------------------------------------------//
     //---------------------------------------------------------------------------------------------------------------------------------------//
     //---------------------------------------------------------------------------------------------------------------------------------------//
@@ -187,28 +129,33 @@ function drawLoop(){
     
     //change stat and descript to match appeared sprite.
     // document.getElementsByClassName("chara_stat")[0].textContent = chara_info[current_sprite]["name"];
-    document.getElementsByClassName("chara_descript")[0].textContent = chara_info[current_sprite]["description"];
+    document.getElementsByClassName("chara_descript")[0].textContent = DFCICharaDict[charaOrder[current_sprite]].description;
 }
 
-let list_of_context = []
+let list_of_canvas = []
+let loaded_canvas = 0;
 let CharaSelectWrapper = document.getElementById("chara-select-wrapper")
-console.log(CharaSelectWrapper)
-for(let i = 0; i<IdleNumberFrame.length;i++){
+
+for(let i = 0; i<charaOrder.length;i++){
 
     let t_canvas = document.createElement('canvas');
+    let canvas_div = document.createElement('div');
     t_canvas.width = 56;
     t_canvas.height = 144;
-    t_canvas.onload = (e)=>{}
-    CharaSelectWrapper.appendChild(t_canvas);
+    canvas_div.className = "chara-select";
+    canvas_div.appendChild(t_canvas);
+    CharaSelectWrapper.appendChild(canvas_div);
+    list_of_canvas.push(t_canvas);
+    
 }
 // let t_canvas_ctx = t_canvas.getContext('2d');
 
-let interval = setInterval(drawLoop, (1000/60)*6);
 //for somereason drawing into newly created canvas not working so we set a timer to do it after a while.
 
 //click to choose characters to show on IdleAniCanvas and their info
 let charaInfo = document.getElementById("chara_info");
-for(let i = 1; i<=IdleNumberFrame.length;i++){
+
+for(let i = 1; i<=charaOrder.length;i++){
     CharaSelectWrapper.childNodes[i].addEventListener('click',()=>{
         current_sprite = i-1;
         movement = -250;
@@ -220,39 +167,36 @@ for(let i = 1; i<=IdleNumberFrame.length;i++){
     
 
 }
-let loadedImg = 0;
+
 BlastImg.onload = (e)=>{loadedImg+=1;}
 BlastNoneImg.onload = (e)=>{loadedImg+=1;}
 CharaSelectTexture.onload = (e)=>{loadedImg+=1;}
-for(let i=0;i<AnimationIdles.length;i++){
-    for(let j=0;j<AnimationIdles[i].length;j++){
-        AnimationIdles[i][j].onload = (e)=>{loadedImg+=1;}
-    }
-}
+
 function WaitLoadAssets(){
     if (loadedImg<NumOfImg){
+        
         let TO = setTimeout(WaitLoadAssets,100);
         console.log(loadedImg/NumOfImg)
     }else{
-        console.log('done');
-        document.getElementsByClassName('wrap')[0].style.display = "block";
         let CharaSelectTimeout = setTimeout((e)=>{
-            drawStat();
-            for(let i = 1; i<=IdleNumberFrame.length;i++){
+            for(let i = 0; i<charaOrder.length;i++){
         
-                let t_canvas_ctx = CharaSelectWrapper.childNodes[i].getContext("2d");
-                let sx = CharaSelectDict[IdleNumberFrame[i-1]["Name"]]["x"]
-                let sy = CharaSelectDict[IdleNumberFrame[i-1]["Name"]]["y"]
-                console.log(sx,sy);
+                let t_canvas_ctx = list_of_canvas[i].getContext("2d");
+                let sx = DFCICharaDict[charaOrder[i]].x
+                let sy = DFCICharaDict[charaOrder[i]].y
                 IdleAniCanvasCtx.clearRect(0,0,10000,1000);
                 t_canvas_ctx.beginPath();
                 t_canvas_ctx.drawImage(CharaSelectTexture,sx,sy,56,144,0,0,56,144);
                 t_canvas_ctx.closePath();
             
             }
+            let interval = setInterval(drawLoop, (1000/60)*6);
+            document.getElementsByClassName('wrap')[0].style.display = "block";
         },500);
+        
     }
 }
+document.getElementsByClassName('wrap')[0].style.display = "none";
 WaitLoadAssets();
 // let CharaSelectTimeout = setTimeout((e)=>{
 //     drawStat();
