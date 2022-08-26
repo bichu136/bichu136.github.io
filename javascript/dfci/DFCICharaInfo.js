@@ -110,7 +110,7 @@ function drawLoop(){
     }
     
     IdleAniCanvasCtx.clearRect(0,0,10000,1000);
-    console.log(DFCICharaDict[charaOrder[current_sprite]].X_offset,DFCICharaDict[charaOrder[current_sprite]].Y_offset);
+    //console.log(DFCICharaDict[charaOrder[current_sprite]].X_offset,DFCICharaDict[charaOrder[current_sprite]].Y_offset);
     let x = movement+DFCICharaDict[charaOrder[current_sprite]].X_offset;
     let y = DFCICharaDict[charaOrder[current_sprite]].Y_offset;
     DFCICharaDict[charaOrder[current_sprite]].draw(IdleAniCanvasCtx,x,y);

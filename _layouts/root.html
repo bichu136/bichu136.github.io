@@ -4,10 +4,18 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- smallTab  CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/jquery-smarttab@4/dist/css/smart_tab_all.min.css" rel="stylesheet" type="text/css" />  
     {{layout.style}}
+    {{page.style}}
 </head>
 <body>
-  
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <!-- SmallTab JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery-smarttab@4/dist/js/jquery.smartTab.min.js" type="text/javascript"></script>
 {{layout.class_implemented}}
 
 {{content}}
@@ -23,6 +31,11 @@
   <!-- <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script> -->
   <!-- Load our React component. -->
-  <!-- <script src="like_button.js"></script> -->
+  <script>
+        $(function() {
+        // SmartTab initialize
+        $('#smarttab').smartTab();
+    });
+  </script>
 </body>
 </html>

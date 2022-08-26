@@ -8,7 +8,6 @@ class StatLine{
         this.height = height;
     }
     draw(lvl,ctx){
-        console.log("in function");
         let color = ["#e33714","#33f01a","#f2c327","#26a1c7","#c845d9"]
         //draw background of bar
         let gradient = ctx.createLinearGradient(this.left,this.top,this.left,this.top+30);
