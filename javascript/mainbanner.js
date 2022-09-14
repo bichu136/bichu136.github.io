@@ -44,7 +44,6 @@ class Ball{
         ctx.beginPath();
         ctx.arc(this.x,this.y,this.r,0,2*Math.PI);
         ctx.fill();
-        console.log()
         let offset_x = dfci_ball_offset[this.img_src.getAttribute("id")]["x"]
         let offset_y = dfci_ball_offset[this.img_src.getAttribute("id")]["y"]
         ctx.drawImage(this.img_src,this.x-this.r-offset_x,this.y-this.r-offset_y);

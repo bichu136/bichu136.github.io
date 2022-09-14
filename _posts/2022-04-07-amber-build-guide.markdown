@@ -50,22 +50,22 @@ table of things
     <ul class="nav">
         <li>
           <a class="nav-link" href="#tab-1">
-            Tab 1
+            something
           </a>
         </li>
         <li>
           <a class="nav-link" href="#tab-2">
-            Tab 2
+            x2
           </a>
         </li>
         <li>
           <a class="nav-link" href="#tab-3">
-            Tab 3
+            x3
           </a>
         </li>
         <li>
           <a class="nav-link" href="#tab-4">
-            Tab 4
+            x4
           </a>
         </li>
     </ul>
@@ -85,3 +85,10 @@ table of things
         </div>
     </div>
 </div>
+
+  <script>
+        $(function() {
+        // SmartTab initialize
+        $('#smarttab').smartTab();
+    });
+  </script>

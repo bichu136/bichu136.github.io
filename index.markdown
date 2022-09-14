@@ -12,9 +12,14 @@ title: bichu136's Blogs
     
     <h2 id="About">About</h2>
     {% include about.html%}
+    
     {% include demos.html%}
+
+
     <h2 id="What-you-can-find-in-here">What you can find in here</h2>
     {%include carosel.html%}
+
+
     <h2 id="Recent Post">Recent Post</h2>
     {% include all_posts.html%}
 </div>
