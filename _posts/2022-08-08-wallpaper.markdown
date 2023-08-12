@@ -8,7 +8,7 @@ categories: linux
 ## introduction
 
 
-**LƯU Ý: PRỌECT NÀY CHƯA HOÀN CHỈNH, CÒN ĐANG TRONG GIAI ĐOẠN PHÁT TRIỂN**
+**LƯU Ý: PROJECT NÀY CHƯA HOÀN CHỈNH, CÒN ĐANG TRONG GIAI ĐOẠN PHÁT TRIỂN**
 
 
 bằng việc sử dụng web wallpapper của KDE Plasma Desktop Enviroment, chung ta có thể biến trang web tỉnh bất kì thành màn hình chính của máy tính. Tuy vậy, vẫn có một số ràng buộc đáng chú ý:

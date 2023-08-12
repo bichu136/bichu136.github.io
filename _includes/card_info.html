@@ -1,11 +1,17 @@
 <div class="card-wrap">
     {% for card in site.data.card_info %}
-    <div class = "card card-inactive" id ="card-5">
-        <figure class="info-icon">
+    <div class = "card card-inactive">
+        <!-- <figure class="info-icon">
             <img src='{{card["icon"]}}'/>
-        </figure>
+        </figure> -->
+        <div class="card-title" >
+            <h2>
+                {{card["title"]}}
+            </h2>
+        </div>
         <div class="info-text">
             {{card["info"]}}
+            {% include 2_year_title_and_detail.html %}
         </div>
     </div>
     {% endfor %}

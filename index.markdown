@@ -9,8 +9,7 @@ title: bichu136's Blogs
 {%include mainBanner.html%}
 {% include header.html%}
 <div class ='post-content' style = 'overflow: auto;'>
-    
-    <h2 id="About">About</h2>
+    <h2 id="objective">Objective</h2>
     {% include about.html%}
     
     {% include demos.html%}

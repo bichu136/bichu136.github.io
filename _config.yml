@@ -21,14 +21,14 @@
 title: Bichu136's Blog
 email: bicagu123@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  bichu136'blog and come to see all random things he learnt
+  bichu136'blogs, come and see all random things that he learnt
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username:  bichu136
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 permalink: /:categories/:title:output_ext

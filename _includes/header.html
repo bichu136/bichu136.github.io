@@ -1,9 +1,16 @@
 <div id="nav-bar">
-    <div id= 'web_title'><a href="/"><i class="material-icons">home</i></a></div>
+    <div id= 'web_title'>
+        <a href="/">
+            <span class="material-symbols-outlined m_s_home">
+                home
+            </span>
+        </a>
+    </div>
     <div id ="spacing">
         <div class="nav-tag" style = "text-align:center">
+            <!-- cần 3 mốc about,github branch tree view, -->
             {% for tag in site.tags %}
-            <div>
+            <div class="tag-name">
                 <a href="/all_post#{{tag[0]}}">{{tag[0]}}</a>
             </div>
             {% endfor %}
